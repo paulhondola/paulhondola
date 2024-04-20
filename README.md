@@ -2,7 +2,7 @@
 
 ## Background
 
-**Undergraduate Student at Polytechnic Univeristy of Timisoara**
+**Undergraduate Student at "Universitatea Politehnică Timișoara"**
 
 **Automation and Computers, Computer and Information Technology Branch**
 
