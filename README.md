@@ -7,7 +7,7 @@
 [![My Skills](https://skillicons.dev/icons?i=linux,apple,arduino,raspberrypi,pytorch,tensorflow&perline=6)](https://skillicons.dev)
 
 ### Favorite Code Editors / IDEs
-[![My Skills](https://skillicons.dev/icons?i=vscode,zed,clion,idea,pycharm,rider&perline=6)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vscode,clion,idea,pycharm,rider&perline=5)](https://skillicons.dev)
 
 ### Future Learning Plan
 [![My Skills](https://skillicons.dev/icons?i=git,githubactions,docker,kubernetes,rust,swift,kotlin,dotnet&perline=4)](https://skillicons.dev)
