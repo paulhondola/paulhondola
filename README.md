@@ -1,5 +1,6 @@
 ### Hi there 👋
 
+[![My Skills](https://skillicons.dev/icons?i=apple,arduino,bash,c,cs,cpp)](https://skillicons.dev)
 <!--
 **paulhondola/paulhondola** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
