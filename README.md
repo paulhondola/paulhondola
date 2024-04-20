@@ -19,7 +19,7 @@
 - FPGA - Image Processing System and Camera Interface
 
 ## Current Skills
-[![My Skills](https://skillicons.dev/icons?i=c,cpp,cs,py,java,matlab,bash,md,obsidian,git&perline=5)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=c,cpp,cs,git,bash,py,java,matlab,md,obsidian&perline=5)](https://skillicons.dev)
 
 ## Passionate About
 [![My Skills](https://skillicons.dev/icons?i=linux,apple,arduino,raspberrypi,pytorch,tensorflow&perline=6)](https://skillicons.dev)
