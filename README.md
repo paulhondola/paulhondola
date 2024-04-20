@@ -1,6 +1,16 @@
-### Hi there 👋
+## Hi there 👋
 
-[![My Skills]([BASE_URL]?i=react,node.js,docker,mongodb,postgresql,awslambda,adobexd,angular)
+### Current Skills
+[![My Skills](https://skillicons.dev/icons?i=c,cpp,cs,py,java,matlab,bash,md,obsidian&perline=3)](https://skillicons.dev)
+
+### Passionate About
+[![My Skills](https://skillicons.dev/icons?i=linux,apple,arduino,raspberrypi,pytorch,tensorflow&perline=6)](https://skillicons.dev)
+
+### Favorite Code Editors / IDEs
+[![My Skills](https://skillicons.dev/icons?i=vscode,zed,clion,idea,pycharm,rider&perline=6)](https://skillicons.dev)
+
+### Future Learning Plan
+[![My Skills](https://skillicons.dev/icons?i=git,githubactions,docker,kubernetes,rust,swift,kotlin,dotnet&perline=4)](https://skillicons.dev)
 <!--
 **paulhondola/paulhondola** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
