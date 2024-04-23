@@ -22,7 +22,6 @@
 [![My Skills](https://skillicons.dev/icons?i=c,cpp,cs,git,bash,py,java,matlab,md,obsidian&perline=5)](https://skillicons.dev)
 
 ## Passionate About
-[![My Skills]([https://simpleskill.icons.workers.dev/svg]?i=react,node.js,docker,mongodb,postgresql,awslambda,adobexd,angular)
 [![My Skills](https://skillicons.dev/icons?i=linux,apple,arduino,raspberrypi,pytorch,tensorflow&perline=6)](https://skillicons.dev)
 
 ## Favorite Code Editors / IDEs
