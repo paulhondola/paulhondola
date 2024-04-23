@@ -24,7 +24,10 @@
 ## Passionate About
 [![My Skills](https://skillicons.dev/icons?i=linux,apple,arduino,raspberrypi,pytorch,tensorflow&perline=6)](https://skillicons.dev)
 
+
+
 ## Favorite Code Editors / IDEs
+[![My Skills]([https://simpleskill.icons.workers.dev/svg]?i=zed&perline=4)]
 [![My Skills](https://skillicons.dev/icons?i=vscode,clion,idea,pycharm,rider&perline=5)](https://skillicons.dev)
 
 ## Future Learning Plan
