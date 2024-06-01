@@ -15,8 +15,8 @@
 ## Projects
 
 - Custom C Libraries
-- Arduino - Data Reading from Analog Sensors and Data Retrieval from OpenWeather API
-- FPGA - Image Processing System and Camera Interface
+- Arduino - Data Reading from Analog Sensors and Data Retrieval using OpenWeather API
+- FPGA - Image Processing and Video Transmission System using a Xilinx Nexys 4 and OV7670 camera
 
 ## Current Skills
 [![My Skills](https://skillicons.dev/icons?i=c,cpp,cs,git,bash,py,java,matlab,md,obsidian&perline=5)](https://skillicons.dev)
