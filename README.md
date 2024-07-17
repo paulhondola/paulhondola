@@ -31,3 +31,7 @@
 
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=paulhondola&layout=compact)
+
+![](https://raw.githubusercontent.com/paulhondola/github-stats/master/generated/overview.svg#gh-dark-mode-only)
+
+![](https://raw.githubusercontent.com/paulhondola/github-stats/master/generated/languages.svg#gh-dark-mode-only)
