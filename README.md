@@ -14,10 +14,12 @@
 ## Projects
 
 - Custom C Libraries for Data Structures
+
 - Arduino - using an Arduino UNO R4 Wifi board:
   - Data Reading from Temperature and Humidity Sensors
   - Data Retrieval using OpenWeather API Keys
   - Data Output using an LCD Display or the on-board LED Dot Matrix
+
 - FPGA - using a Xilinx Nexys 4 and OV7670 camera:
   - Basic Image Processing and VGA Video Transmission System 
   - UART Video Transmission with OpenCV face detection
