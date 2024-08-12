@@ -26,8 +26,4 @@
 ## Future Learning Plan
 [![My Skills](https://skillicons.dev/icons?i=githubactions,docker,kubernetes,rust,swift,kotlin&perline=6)](https://skillicons.dev)
 
-## Favorite Code Editors / IDEs
-[![My Skills](https://skillicons.dev/icons?i=vscode,clion,idea,pycharm,rider&perline=5)](https://skillicons.dev)
-
-
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=paulhondola&layout=compact)
