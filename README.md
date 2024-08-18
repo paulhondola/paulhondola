@@ -14,6 +14,9 @@
 [![Linkedln](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulhondola) 
 [![Gmail Badge](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:paulhondola@gmail.com)](mailto:paulhondola@gmail.com) 
 [![Whatsapp](https://img.shields.io/badge/WhatsApp-277B5?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/40745166873)
+[![Leetcode](https://img.shields.io/badge/LeetCode-Fa3?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/paulhondola/)
+
+
 ## Projects
 
 [![TP Project](https://img.shields.io/badge/C_Libraries-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/paulhondola/Tehnici-de-Programare/tree/main/libraries/src)
