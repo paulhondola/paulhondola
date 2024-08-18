@@ -11,7 +11,14 @@
 - Main Email: paulhondola@gmail.com
 - Phone Number: +40745166873
 
+[![Linkedln](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulhondola) 
+[![Gmail Badge](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:paulhondola@gmail.com)](mailto:paulhondola@gmail.com) 
+[![Whatsapp](https://img.shields.io/badge/WhatsApp-277B5?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/40745166873)
 ## Projects
+
+[![TP Project](https://img.shields.io/badge/C_Libraries-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/paulhondola/Tehnici-de-Programare/tree/main/libraries/src)
+[![Arduino Project](https://img.shields.io/badge/Arduino_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/orgs/DEM-Arduino-Project/repositories)
+[![FPGA Project](https://img.shields.io/badge/FPGA_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/LD-FPGA-Project/FPGA-Video-Transmission-and-Image-Processing)
 
 - Custom C Libraries for Data Structures
 
@@ -20,7 +27,8 @@
   - Data Retrieval using OpenWeather API Keys
   - Data Output using an LCD Display or the on-board LED Dot Matrix
 
-- FPGA - using a Xilinx Nexys 4 and OV7670 camera:
+
+- FPGA - using a Xilinx Nexys 4 board and an OV7670 camera:
   - Basic Image Processing and VGA Video Transmission System 
   - UART Video Transmission with OpenCV face detection
 
@@ -34,3 +42,9 @@
 [![My Skills](https://skillicons.dev/icons?i=githubactions,docker,kubernetes,rust,swift,kotlin&perline=6)](https://skillicons.dev)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=paulhondola&layout=compact)
+
+
+
+
+
+
