@@ -20,24 +20,23 @@
 
 ## Projects
 
-[![Arduino Project](https://img.shields.io/badge/Arduino_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/orgs/DEM-Arduino-Project/repositories)
-[![FPGA Project](https://img.shields.io/badge/FPGA_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/LD-FPGA-Project/FPGA-Video-Transmission-and-Image-Processing)
 [![SafetyMap Project](https://img.shields.io/badge/SafetyMap_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/UniHack2024/repositories)
+[![FPGA Project](https://img.shields.io/badge/FPGA_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/LD-FPGA-Project/FPGA-Video-Transmission-and-Image-Processing)
+[![Arduino Project](https://img.shields.io/badge/Arduino_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/orgs/DEM-Arduino-Project/repositories)
 
-- Custom C Libraries for Data Structures and Generic Sorting Algorithms
+- SafetyMap - Android Native app in Java with a FireBase backend
+  - Ping safety alerts / warnings and complaints on map with in-radius notification for all users
+
+- FPGA - using a Xilinx Nexys 4 board and an OV7670 camera:
+  - Basic Image Processing and VGA Video Transmission System 
+  - UART Video Transmission with OpenCV face detection
 
 - Arduino - using an Arduino UNO R4 Wifi board:
   - Data Reading from Temperature and Humidity Sensors
   - Data Retrieval using OpenWeather API Keys
   - Data Output using an LCD Display or the on-board LED Dot Matrix
 
-
-- FPGA - using a Xilinx Nexys 4 board and an OV7670 camera:
-  - Basic Image Processing and VGA Video Transmission System 
-  - UART Video Transmission with OpenCV face detection
-
-- SafetyMap - Android Native app in Java with a FireBase backend
-  - Ping safety alerts / warnings and complaints on map with in-radius notification for all users
+- Custom C Libraries for Data Structures and Generic Sorting Algorithms
 
 <div align="center">
   <picture>
