@@ -1,6 +1,6 @@
 # Hey there! 👋
 
-![alt text](https://pixel-profile-ui.vercel.app/api/github-stats?username=paulhondola&screen_effect=true&include_all_commits=true&pixelate_avatar=false&background=linear-gradient%28180deg%2C+%23ffffffFF+0%25%2C+%232e222f00+0%25%29+%2C+url%28https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Fmatrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg%29&color=%23ffffffFF)
+![alt text]([https://pixel-profile-ui.vercel.app/api/github-stats?username=paulhondola&screen_effect=true&include_all_commits=true&pixelate_avatar=false&background=linear-gradient%28180deg%2C+%23ffffffFF+0%25%2C+%232e222f00+0%25%29+%2C+url%28https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Fmatrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg%29&color=%23ffffffFF](https://pixel-profile-ui.vercel.app/api/github-stats?username=paulhondola&screen_effect=true&include_all_commits=true&pixelate_avatar=false&background=linear-gradient%28180deg%2C+%23ffffffFF+0%25%2C+%232e222f00+0%25%29+%2C+url%28https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Fmatrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg%29&color=%23ffffffFF))
 
 ## Background
 
