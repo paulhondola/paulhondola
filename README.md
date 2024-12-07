@@ -6,7 +6,7 @@
 
 **Automation and Computers, Computer and Information Technology Branch**
 
-![UPT](https://acceleratefuturehei.eu/wp-content/uploads/2023/03/sigla-scurta_cu-scris-01.png)
+<img src="https://acceleratefuturehei.eu/wp-content/uploads/2023/03/sigla-scurta_cu-scris-01.png" width=50% height=50%>
 
 ## Personal Details
 
