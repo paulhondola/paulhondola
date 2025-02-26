@@ -23,14 +23,9 @@
 [![Leetcode](https://img.shields.io/badge/LeetCode-Fa3?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/paulhondola/)
 
 ## Projects
-
-[![CORE-TX Project](https://img.shields.io/badge/CORE_TX-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/DSP-Labs-CORE-TX/CORE-TX)
 [![SafetyMap Project](https://img.shields.io/badge/SafetyMap_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/UniHack2024/repositories)
 [![FPGA Project](https://img.shields.io/badge/FPGA_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/LD-FPGA-Project/FPGA-Video-Transmission-and-Image-Processing)
 [![Arduino Project](https://img.shields.io/badge/Arduino_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/orgs/DEM-Arduino-Project/repositories)
-
-- CORE-TX - Perception Module for CORE-TX Robotic Platform
-  - The perception module is an embedded system with an ARM microcontroller that manages robot sensors such as: temperature, humidity, LIDAR, SONAR.
 
 - SafetyMap - Android Native app in Java with a FireBase backend
   - Ping safety alerts / warnings and complaints on map with in-radius notification for all users
