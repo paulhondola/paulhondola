@@ -23,7 +23,7 @@
 [![Leetcode](https://img.shields.io/badge/LeetCode-Fa3?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/paulhondola/)
 
 ## Projects
-[![SafetyMap Project](https://img.shields.io/badge/SafetyMap_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/UniHack2024/repositories)
+[![SafetyMap Project](https://img.shields.io/badge/SafetyMap_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/UniHack2024)
 [![FPGA Project](https://img.shields.io/badge/FPGA_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/LD-FPGA-Project/FPGA-Video-Transmission-and-Image-Processing)
 [![Arduino Project](https://img.shields.io/badge/Arduino_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/orgs/DEM-Arduino-Project/repositories)
 
