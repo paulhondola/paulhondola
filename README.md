@@ -21,7 +21,16 @@ Participated in Bitdefender's Academic Labs program focused on cybersecurity, wh
 - Examined Android application security and potential attack vectors
 - Developed skills in operating system architecture (Windows, Linux/Android)
 - Participated in Capture the Flag challenges and CrackMe exercises
-  
+
+### Tools & Technologies Used
+
+- **Android Studio + SDK (Command-line tools & Emulator):** Android app analysis and emulation for dynamic testing.
+- **Jadx Decompiler:** Decompiled APKs for static analysis of Android applications.
+- **Apktool:** Reverse engineered APK resources for inspection and modification.
+- **IDA Freeware & Ghidra:** For static analysis of Windows binaries.
+- **x64dbg & OllyDbg:** Debugging Windows executables to understand malware behavior.
+- **HxD & qiew:** Hex and binary editors for manual inspection of binaries.
+
 [![My Skills](https://skillicons.dev/icons?i=androidstudio,windows&perline=7)](https://skillicons.dev)
 
 ## Quantum Computing Experience
@@ -35,6 +44,7 @@ Participated in RoNaQCI  (Romanian National Quantum Communication Infrastructure
   - Linear Algebra for Quantum Computing
   - Qubits and Quantum Gates
   - Entanglement, Teleportation and Quantum Cryptography
+  - Quantum Simulators using Qiskit
   - Completed the course and earned the diploma at "Universitatea Politehnică Timișoara"
 
 ## 👨‍💻 Projects
@@ -43,7 +53,7 @@ Participated in RoNaQCI  (Romanian National Quantum Communication Infrastructure
 [![FPGA Project](https://img.shields.io/badge/FPGA_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/LD-FPGA-Project/FPGA-Video-Transmission-and-Image-Processing)
 [![Arduino Project](https://img.shields.io/badge/Arduino_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/orgs/DEM-Arduino-Project/repositories)
 
-### Treasure Hunt - CLI game application in C for managing treasure hunt data:**
+### Treasure Hunt - CLI game application in C for managing treasure hunt data:
   - Implements a file-based data storage system with symbolic links
   - Written in low-level C with a focus on security, and safe handling of files, directories, symlinks and error signals or codes
   - Uses logs for operations executed on the database
@@ -68,7 +78,7 @@ Tech Stack:
 
 [![My Skills](https://skillicons.dev/icons?i=androidstudio,java,gradle,postgres,django,firebase&perline=7)](https://skillicons.dev)
 
-### FPGA Video Transmission & Image Processing
+#### FPGA Video Transmission & Image Processing
 
 A video transmission and image processing system using FPGA, with real-time camera input and display via VGA. Supports basic image processing and integrates with OpenCV for face recognition through UART.
 
@@ -122,3 +132,5 @@ Projects:
 - Place: Cugir, Alba, Romania
 - Main Email: <paulhondola@gmail.com>
 - Phone Number: +40745166873
+  
+  
