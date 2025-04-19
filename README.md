@@ -54,11 +54,14 @@ Participated in RoNaQCI  (Romanian National Quantum Communication Infrastructure
 [![Arduino Project](https://img.shields.io/badge/Arduino_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/orgs/DEM-Arduino-Project/repositories)
 
 ### Treasure Hunt - CLI game application in C for managing treasure hunt data
-  - Implements a file-based data storage system with symbolic links
-  - Written in low-level C with a focus on security, and safe handling of files, directories, symlinks and error signals or codes
-  - Uses logs for operations executed on the database
-  - Features CRUD operations (Create, Read, Update, Delete) for treasure hunts and individual treasures
-  - Organized with clean code architecture using modular components
+  - Implements a file-based data storage system using symbolic links and CSV record formats
+  - Uses logs to track user operations, with symlinked logs for centralized access
+  - Introduces an interactive shell-like CLI program (treasure_hub) to manage hunts and treasures via commands
+  - Utilizes multi-process architecture and sigaction-based signal handling for inter-process communication
+  - Enables runtime features such as live monitoring, hunt and treasure inspection, and controlled shutdown of the
+monitor process
+  - Designed and tested in a Unix (MacOS) environment using Clang, Make, and standard system calls (open, read,
+write, lseek, stat, mkdir, exec, etc.)
 
 [![My Skills](https://skillicons.dev/icons?i=linux,c,cmake&perline=7)](https://skillicons.dev)
 
