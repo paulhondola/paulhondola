@@ -24,10 +24,7 @@ Participated in Bitdefender's Academic Labs program focused on cybersecurity, wh
 
 - **Android Studio + SDK (Command-line tools & Emulator):** Android app analysis and emulation for dynamic testing.
 - **Jadx Decompiler:** Decompiled APKs for static analysis of Android applications.
-- **Apktool:** Reverse engineered APK resources for inspection and modification.
-- **IDA Freeware & Ghidra:** For static analysis of Windows binaries.
-- **x64dbg & OllyDbg:** Debugging Windows executables to understand malware behavior.
-- **HxD & qiew:** Hex and binary editors for manual inspection of binaries.
+- **Frida:** Unpacked dynamic loaded malware via frida-server hooking
 
 [![My Skills](https://skillicons.dev/icons?i=androidstudio,windows&perline=7)](https://skillicons.dev)
 
