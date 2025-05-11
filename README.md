@@ -48,7 +48,7 @@ Participated in RoNaQCI  (Romanian National Quantum Communication Infrastructure
 [![FPGA Project](https://img.shields.io/badge/FPGA_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/LD-FPGA-Project/FPGA-Video-Transmission-and-Image-Processing)
 [![Arduino Project](https://img.shields.io/badge/Arduino_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/orgs/DEM-Arduino-Project/repositories)
 
-### Treasure Hunt - CLI game application in C
+### TreasureHunt - CLI Data Management Application
   - Introduces an interactive shell-like CLI program to manage hunts and treasures via commands
   - Uses logs to track user operations, with symlinked logs for centralized access
   - Implements a file-based data storage system with binary records
@@ -59,7 +59,7 @@ monitor process
 
 [![My Skills](https://skillicons.dev/icons?i=linux,c,cmake&perline=7)](https://skillicons.dev)
 
-### SafetyMap - A community-driven safety alert app to help users stay informed about nearby hazards
+### SafetyMap - Community-driven Safety App
 Key Features:
 - Interactive Map: Mark and view safety alerts using Google Maps.
 - Real-Time Notifications: Alerts for hazards in your vicinity.
