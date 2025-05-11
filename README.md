@@ -53,8 +53,8 @@ Participated in RoNaQCI  (Romanian National Quantum Communication Infrastructure
 [![FPGA Project](https://img.shields.io/badge/FPGA_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/LD-FPGA-Project/FPGA-Video-Transmission-and-Image-Processing)
 [![Arduino Project](https://img.shields.io/badge/Arduino_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/orgs/DEM-Arduino-Project/repositories)
 
-### Treasure Hunt - CLI game application in C for managing treasure hunt data
-  - Introduces an interactive shell-like CLI program (treasure_hub) to manage hunts and treasures via commands
+### Treasure Hunt - CLI game application in C
+  - Introduces an interactive shell-like CLI program to manage hunts and treasures via commands
   - Uses logs to track user operations, with symlinked logs for centralized access
   - Implements a file-based data storage system with binary records
   - Utilizes multi-process architecture and sigaction-based signal handling for inter-process communication
