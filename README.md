@@ -16,11 +16,9 @@
 
 Participated in Bitdefender's Academic Labs program focused on cybersecurity, where I:
 
-- Analyzed Windows programs for vulnerabilities and exploitation vectors
-- Studied virus analysis techniques, particularly Windows executable infectors
+- Studied Android system architecture, its security model and APKs
+- Developed skills in static and dynamic analysis, decompilation, encryption and decryption
 - Examined Android application security and potential attack vectors
-- Developed skills in operating system architecture (Windows, Linux/Android)
-- Participated in Capture the Flag challenges and CrackMe exercises
 
 ### Tools & Technologies Used
 
