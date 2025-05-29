@@ -19,12 +19,16 @@ Participated in Bitdefender's Academic Labs program focused on cybersecurity, wh
 - Studied Android system architecture, its security model and APKs
 - Developed skills in static and dynamic analysis, decompilation, encryption and decryption
 - Examined Android application security and potential attack vectors
+- Analyzed Windows system architecture and DLLs
+- Studied briefly x86_64 Assembly Language, analyzed binaries and reversed algorithms inside
 
 ### Tools & Technologies Used
 
-- **Android Studio + SDK (Command-line tools & Emulator):** Android app analysis and emulation for dynamic testing.
-- **Jadx Decompiler:** Decompiled APKs for static analysis of Android applications.
+- **Android Studio + SDK (Command-line tools & Emulator):** Android app analysis and emulation for dynamic testing
+- **Jadx Decompiler:** Decompiled APKs for static analysis of Android applications
 - **Frida:** Unpacked dynamic loaded malware via frida-server hooking
+- **IDA Free and x64dbg:** Disassembled binaries to analyze and reverse engineer
+- **HxD and Gview:** Analyzed binary data and patched executables
 
 [![My Skills](https://skillicons.dev/icons?i=androidstudio,windows&perline=7)](https://skillicons.dev)
 
