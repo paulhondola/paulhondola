@@ -71,9 +71,12 @@ Key Features
 
 Technologies Used
 
-- Python (NumPy, Pandas, PyTorch, TensorFlow, scikit-learn)
-- psutil, py-cpuinfo, matplotlib
-- JSON configuration loading
+- FP / INT Benchmarks: NumPy, Pandas
+- ML: PyTorch, TensorFlow, scikit-learn
+- DB: sqlite3, sqlalchemy, mysql
+- System Metrics: psutil, py-cpuinfo
+- Plotting: matplotlib
+- pyproject.toml build system + JSON configuration loading
 - Cross-platform: tested on macOS, Windows, and Linux
 
 [![My Skills](https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn&perline=7)](https://skillicons.dev)
