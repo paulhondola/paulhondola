@@ -50,7 +50,7 @@ Participated in RoNaQCI  (Romanian National Quantum Communication Infrastructure
 ## 👨‍💻 Projects
 
 [![Benchmark Suite Project](https://img.shields.io/badge/BenchmarkSuite-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/paulhondola/Benchmark-Suite)
-[![Treasure Hunt Project](https://img.shields.io/badge/Treasure_Hunt-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/paulhondola/Sisteme-de-Operare)
+[![Treasure Hunt Project](https://img.shields.io/badge/Treasure_Hunt-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/paulhondola/TreasureHunt)
 [![SafetyMap Project](https://img.shields.io/badge/SafetyMap_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/UniHack2024)
 [![FPGA Project](https://img.shields.io/badge/FPGA_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/LD-FPGA-Project/FPGA-Video-Transmission-and-Image-Processing)
 [![Arduino Project](https://img.shields.io/badge/Arduino_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/orgs/DEM-Arduino-Project/repositories)
