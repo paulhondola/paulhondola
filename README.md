@@ -112,7 +112,7 @@ Tech Stack:
 
 [![My Skills](https://skillicons.dev/icons?i=androidstudio,java,gradle,postgres,django,firebase&perline=7)](https://skillicons.dev)
 
-#### FPGA Video Transmission & Image Processing
+### FPGA Video Transmission & Image Processing
 
 A video transmission and image processing system using FPGA, with real-time camera input and display via VGA. Supports basic image processing and integrates with OpenCV for face recognition through UART.
 
