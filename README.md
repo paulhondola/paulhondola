@@ -75,7 +75,6 @@ Technologies Used
 - ML: PyTorch, TensorFlow, scikit-learn
 - DB: sqlite3
 - System Metrics: psutil, py-cpuinfo
-- Plotting: matplotlib
 - pyproject.toml build system + JSON configuration loading
 - Cross-platform: tested on macOS, Windows, and Linux and Docker Containers
 
