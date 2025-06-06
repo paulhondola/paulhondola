@@ -80,7 +80,7 @@ Technologies Used
 
 [![My Skills](https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn&perline=7)](https://skillicons.dev)
 
-### TreasureHunt - CLI Data Management Application
+### Treasure Hunt System – Interactive Shell CLI Game
 
   - Introduces an interactive shell-like CLI program to manage hunts and treasures via commands
   - Uses logs to track user operations, with symlinked logs for centralized access
