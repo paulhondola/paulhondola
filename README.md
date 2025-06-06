@@ -71,13 +71,13 @@ Key Features
 
 Technologies Used
 
-- FP / INT Benchmarks: NumPy, Pandas
+- FP Benchmarks: NumPy, Pandas
 - ML: PyTorch, TensorFlow, scikit-learn
-- DB: sqlite3, sqlalchemy, mysql
+- DB: sqlite3
 - System Metrics: psutil, py-cpuinfo
 - Plotting: matplotlib
 - pyproject.toml build system + JSON configuration loading
-- Cross-platform: tested on macOS, Windows, and Linux
+- Cross-platform: tested on macOS, Windows, and Linux and Docker Containers
 
 [![My Skills](https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn&perline=7)](https://skillicons.dev)
 
