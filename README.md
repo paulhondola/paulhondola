@@ -20,8 +20,9 @@ Participated in Bitdefender's Academic Labs program focused on cybersecurity, wh
 - Developed skills in static and dynamic analysis, decompilation, encryption and decryption
 - Examined Android application security and potential attack vectors
 - Analyzed Windows system architecture and DLLs
-- Studied briefly x86_64 Assembly Language and analyzed binaries
+- Studied briefly x86 Assembly Language and analyzed binaries
 - Reverse engineered simple encryption algorithms inside ransomware
+- Developed buffer overflow / stack overflow exploits
 
 ### Tools & Technologies Used
 
