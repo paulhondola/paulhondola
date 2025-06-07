@@ -77,7 +77,7 @@ Technologies Used
 - DB: sqlite3
 - System Metrics: psutil, py-cpuinfo
 - pyproject.toml build system + JSON configuration loading
-- Cross-platform: tested on macOS, Windows, and Linux and Docker Containers
+- Cross-platform: tested on macOS, Windows, Linux and Docker Containers
 
 [![My Skills](https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn&perline=7)](https://skillicons.dev)
 
