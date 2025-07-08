@@ -10,7 +10,7 @@
 
 ## Cybersecurity Experience
 
-<img src="https://raw.githubusercontent.com/paulhondola/Bitdefender-AC-Labs/main/Resources/Logos/bitdefender_icon_blue.png" width=50% height=50%>
+<img src="https://raw.githubusercontent.com/paulhondola/Bitdefender-AC-Labs/main/Resources/Logos/bitdefender_icon_blue.png" width=50% height=100%>
 
 ### Reverse Engineering and Malware Analysis Program
 
@@ -36,7 +36,7 @@ Participated in Bitdefender's Academic Labs program focused on cybersecurity, wh
 
 ## Quantum Computing Experience
 
-<img src="https://raw.githubusercontent.com/paulhondola/Quantum-Computing-RoNaQCI/main/logo/logo-ronaqci.png" width=50% height=50%>
+<img src="https://raw.githubusercontent.com/paulhondola/Quantum-Computing-RoNaQCI/main/logo/logo-ronaqci.png" width=50% height=100%>
 
 ### Quantum Computing Training
 
