@@ -6,11 +6,11 @@
 
 **Automation and Computers, Computer and Information Technology Branch**
 
-<img src="https://acceleratefuturehei.eu/wp-content/uploads/2023/03/sigla-scurta_cu-scris-01.png" width=100% height=100%>
+## Full Stack Engineer at Hibyte
+
+[![My Skills](https://skillicons.dev/icons?i=typescript,angular,nodejs,html,css,&perline=7)](https://skillicons.dev)
 
 ## Cybersecurity Experience
-
-<img src="https://raw.githubusercontent.com/paulhondola/Bitdefender-AC-Labs/main/Resources/Logos/bitdefender_icon_blue.png" width=100% height=100%>
 
 ### Reverse Engineering and Malware Analysis Program
 
@@ -36,17 +36,13 @@ Participated in Bitdefender's Academic Labs program focused on cybersecurity, wh
 
 ## Quantum Computing Experience
 
-<img src="https://raw.githubusercontent.com/paulhondola/Quantum-Computing-RoNaQCI/main/logo/logo-ronaqci.png" width=100% height=100%>
-
-### Quantum Computing Training
-
 Participated in RoNaQCI  (Romanian National Quantum Communication Infrastructure) Academic Labs program focused on:
-  - Introduction to Quantum Computing and Communications
-  - Linear Algebra for Quantum Computing
-  - Qubits and Quantum Gates
-  - Entanglement, Teleportation and Quantum Cryptography
-  - Quantum Simulators using Qiskit
-  - Completed the course and earned the diploma at "Universitatea Politehnică Timișoara"
+- Introduction to Quantum Computing and Communications
+- Linear Algebra for Quantum Computing
+- Qubits and Quantum Gates
+- Entanglement, Teleportation and Quantum Cryptography
+- Quantum Simulators using Qiskit
+- Completed the course and earned the diploma at Polytechnic University of Timisoara
 
 ## 👨‍💻 Projects
 
@@ -60,7 +56,7 @@ Participated in RoNaQCI  (Romanian National Quantum Communication Infrastructure
 
 A cross-platform system performance benchmarking suite built for in-depth analysis and comparison of CPU, GPU, memory, and cache performance across workloads, architectures, and environments.
 
-Key Features
+#### Key Features
 
 - Configurable microbenchmarks: floating point throughput, memory latency/bandwidth, thread scalability
 - ML workloads powered by scikit-learn, PyTorch (CPU/GPU/MPS), and TensorFlow
@@ -70,7 +66,7 @@ Key Features
 - Results auto-saved in timestamped .json files for logging and comparison
 - Modular and extensible structure using Python packages
 
-Technologies Used
+#### Technologies Used
 
 - FP Benchmarks: NumPy, Pandas
 - ML: PyTorch, TensorFlow, scikit-learn
@@ -95,14 +91,14 @@ monitor process
 
 ### SafetyMap - Community-driven Safety App
 
-Key Features:
+#### Key Features:
 
 - Interactive Map: Mark and view safety alerts using Google Maps.
 - Real-Time Notifications: Alerts for hazards in your vicinity.
 - Automated Civic Complaints: Sends reports to local town halls.
 - Community Trust System: Users vote to verify alerts.
 
-Tech Stack:
+#### Tech Stack:
 
 - Frontend: Java (Android)
 - Backend: Python (Django/Flask)
@@ -116,14 +112,14 @@ Tech Stack:
 
 A video transmission and image processing system using FPGA, with real-time camera input and display via VGA. Supports basic image processing and integrates with OpenCV for face recognition through UART.
 
-Hardware & Tools:
+#### Hardware & Tools:
 
 - FPGA: Xilinx Nexys 4 Artix-7
 - Camera: OV7670
 - IDE: AMD Vivado 2023
 - Languages: Verilog / VHDL, Python
 
-Features:
+#### Features:
 
 - Video output to monitor via VGA
 - UART webcam feed for OpenCV-based face recognition
@@ -133,13 +129,13 @@ Features:
 
 ### Arduino Small Projects
 
-Hardware & Tools:
+#### Hardware & Tools:
 
   - Arduino UNO R4 WiFi
   - I2C LCD Display
   - DHT11 Temperature and Humidity Sensor
 
-Projects:
+#### Projects:
 
   - Data Reading from Temperature and Humidity Sensors
   - Data Retrieval using OpenWeather API Keys
@@ -164,12 +160,3 @@ Projects:
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
-
-## Personal Details
-
-- Birthday: 19 August 2004
-- Place: Cugir, Alba, Romania
-- Main Email: <paulhondola@gmail.com>
-- Phone Number: +40745166873
-  
-  
