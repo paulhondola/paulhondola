@@ -151,7 +151,19 @@ A video transmission and image processing system using FPGA, with real-time came
 
 [![My Skills](https://skillicons.dev/icons?i=rust,zig,swift,docker,kubernetes&perline=7)](https://skillicons.dev)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=paulhondola&layout=compact)
+<div align="left">
+
+  <br><br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=paulhondola&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="Top Languages" />
+
+  <!-- 🔥 GitHub Streak Stats -->
+  <img src="https://streak-stats.demolab.com?user=paulhondola&theme=highcontrast&hide_border=true" alt="GitHub Streak" />
+
+   <!-- 👁️ Profile Views -->
+  <br><br>
+  <img src="https://komarev.com/ghpvc/?username=paulhondola&label=Profile%20views&color=0e75b6&style=flat" alt="Visitor badge"/>
+
+</div>
 
 <div align="center">
   <picture>
