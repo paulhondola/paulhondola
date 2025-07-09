@@ -6,7 +6,7 @@
 
 **Automation and Computers, Computer and Information Technology Branch**
 
-## Full Stack Engineer at Hibyte
+## Full Stack Web Developer at Hibyte
 
 [![My Skills](https://skillicons.dev/icons?i=typescript,angular,nodejs,html,css,&perline=7)](https://skillicons.dev)
 
