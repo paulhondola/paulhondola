@@ -8,7 +8,7 @@
 
 ## Full Stack Web Developer at Hibyte
 
-[![My Skills](https://skillicons.dev/icons?i=typescript,angular,nodejs,html,css,&perline=7)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=angular,nestjs,supabase,typescript,html,css,&perline=7)](https://skillicons.dev)
 
 ## Cybersecurity Experience
 
