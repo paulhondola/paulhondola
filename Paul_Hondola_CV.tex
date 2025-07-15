@@ -1,0 +1,239 @@
+%-------------------------
+% Author : Paul Hondola
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper, 11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{ \vspace{-4pt}\scshape\raggedright\large }{}{0em}{}[
+\color{black}
+\titlerule
+\vspace{-5pt}
+]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{ \item\small{ {#1 \vspace{-2pt}} } }
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-2pt}
+\item
+\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+	\textbf{#1}       & #2                 \\
+	\textit{\small#3} & \textit{\small #4} \\
+\end{tabular*}
+\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{ \item
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textit{\small#1} & \textit{\small #2} \\
+\end{tabular*}
+\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{ \item
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\small#1 & #2 \\
+\end{tabular*}
+\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}
+\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}
+\vspace{-5pt}}
+
+\begin{document}
+	%----------HEADING----------
+
+	\begin{center}
+		\textbf{\Huge \scshape Paul Hondola} \\
+		\vspace{1pt}
+		\small 0745166873 $|$ \href{mailto:paulhondola@gmail.com}{\underline{paulhondola@gmail.com}}
+		$|$ \href{https://linkedin.com/in/paulhondola}{\underline{linkedin.com/in/paulhondola}} $|$
+		\href{https://github.com/paulhondola}{\underline{github.com/paulhondola}}
+	\end{center}
+
+	%-----------EDUCATION-----------
+	\section{Education}
+	\resumeSubHeadingListStart
+
+	\resumeSubheading{Bachelor of Science in Computer Engineering}{Oct. 2023 -- June 2027}{Universitatea Politehnica Timisoara}{}
+
+	\resumeSubheading{DeepBlue Maker - Underwater Robotics Summer Camp}{Jul. 2025 -- Aug. 2025}{Hangzhou Dianzi University, China}{}
+    
+	\resumeSubHeadingListEnd
+
+	%-----------EXPERIENCE-----------
+	\section{Experience}
+	\resumeSubHeadingListStart
+
+	\resumeSubheading {Full Stack Developer}{Jul. 2025 -- current} {Hibyte $|$ \emph{Typescript, Angular, NestJS, Payload CMS, Supabase, Docker, Github Actions}}{}
+    
+    \resumeItemListStart 
+        \resumeItem{GameBox - A full-stack monorepo for managing a game center, featuring a content management system with admin interface and user-facing web application.}
+        
+        \resumeItem{Developed with the help of a modern Tech Stack:}
+        \resumeItemListStart 
+            \resumeItem{Frontend: Angular v20, Typescript, HTML, SCSS}
+            \resumeItem{Backend \& Database: NestJS \& Payload CMS \& Supabase}
+            \resumeItem{Testing Suites: Jest, Vitest, Cypress}
+            \resumeItem{CI/CD: Docker, Github Actions}
+        \resumeItemListEnd
+    \resumeItemListEnd
+
+	\resumeSubheading {Malware Analyst Trainee}{Apr. 2025 -- Jun. 2025} {Bitdefender $|$ \emph{Java + jadx, C \& x86 Assembly + IDA, Python}}{}
+
+    \resumeItemListStart
+
+    \resumeItem{Participated in Bitdefender's Academic Labs program, focused on reverse engineering and malware analysis. Working hands-on with Windows and Android environments to analyze vulnerabilities, study malware behavior, and explore exploitation techniques.}
+
+    \resumeItemListStart 
+                    
+            \resumeItem{Studied Android system architecture, its security model and APKs}
+    
+	        \resumeItem{Developed skills in static and dynamic analysis, decompilation and disassembly}
+
+	          \resumeItem{Reverse engineered simple encryption algorithms inside ransomware}
+
+	\resumeItemListEnd 
+    
+    \resumeSubHeadingListEnd
+
+    %-----------TECHNICAL SKILLS-----------
+	\section{Technical Skills}
+	\begin{itemize}[leftmargin=0.15in, label={}]
+		\small{\item{
+
+		\textbf{Programming Languages}{: C, C++, Python, Java, TypeScript, Bash, SQL} \\
+        
+        \textbf{Frontend Development}{: Angular, HTML5, SCSS} \\
+        
+        \textbf{Backend \& Databases}{: NestJS, Supabase, Payload CMS, REST APIs} \\
+
+		\textbf{DevOps \& Tooling}{: Linux, Docker, Git, GitHub Actions, Make, Clang} \\
+
+		\textbf{Languages}{: English C1 (Cambridge Assessment)} \\ }}
+	\end{itemize}
+
+	%-----------PROJECTS-----------
+	\section{Projects}
+	\resumeSubHeadingListStart
+
+	\resumeProjectHeading
+	{\textbf{Benchmark Suite} $|$ \emph{Python, psutil, pycpu-info, ML libraries, NumPy, Pandas, Docker}}{May 2025 - Jun 2025}
+
+	\resumeItemListStart
+
+	   \resumeItem{Cross-platform system performance benchmarking suite built for in-depth analysis and comparison of CPU, GPU, memory, and cache performance across workloads, architectures, and environments.}
+
+	   \resumeItem{ Configurable microbenchmarks: floating point throughput, memory latency/bandwidth, thread scalability}
+
+	   \resumeItem{ ML workloads powered by scikit-learn, PyTorch (CPU/GPU/MPS), and TensorFlow}
+    
+	   \resumeItem{Compiler benchmarking with gcc / clang via real-world C project compilation}
+
+	   \resumeItem{Detailed hardware info introspection (RAM, CPU cores, frequencies, per-core usage, cache levels)}
+
+	\resumeItemListEnd
+
+	\resumeProjectHeading {\textbf{Treasure Hunt System} $|$ \emph{C, POSIX system calls, Clang, Make, Git}}{Mar 2025 -- May 2025}
+
+	\resumeItemListStart 
+        
+        \resumeItem{Introduces an interactive shell-like CLI program to manage hunts and treasures via commands}
+
+	   \resumeItem{Uses logs to track user operations, with symlinked logs for centralized access}
+
+	   \resumeItem{Utilizes multi-process architecture and sigaction-based signal handling for inter-process communication}
+
+	   \resumeItem{Enables runtime features such as live monitoring, hunt and treasure inspection, and controlled shutdown of the monitor process}
+
+	\resumeItemListEnd
+
+	\resumeProjectHeading
+	{\textbf{SafetyMap - Community-driven Safety App} $|$ \emph{Java, Android, Google Maps API, Firebase}}{Nov 2024 -- Nov 2024}
+
+	\resumeItemListStart 
+    
+        \resumeItem{Interactive Map: Mark and view safety alerts using Google Maps}
+
+	   \resumeItem{User Alerts: Users can drop pins on the map to report issues such as thefts, road hazards, or other dangers}
+
+	   \resumeItem{Notifications: Real-time notifications for users approaching an area with a safety alert}
+
+	   \resumeItem{Community Trust System: Users can vote on the validity of alerts, contributing to a community trust score}
+
+	\resumeItemListEnd
+
+	\resumeProjectHeading {\textbf{FPGA Video Transmission and Image Processing} $|$ \emph{Verilog, VHDL, Xilinx FPGA}}{Mar 2024 -- Jun 2024}
+
+	\resumeItemListStart
+
+	   \resumeItem{Hardware based video transmission and image processing system, with camera input and display via VGA. }
+
+	   \resumeItem{Supports basic image processing and integrates with OpenCV for face recognition through UART.}
+
+	\resumeItemListEnd 
+    
+    \resumeSubHeadingListEnd
+
+	%-----------CERTIFICATES-----------
+	%----------------------------------
+
+	%-------------------------------------------
+\end{document}

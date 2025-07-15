@@ -2,9 +2,11 @@
 
 ## 🎓 Education
 
-**Undergraduate Student at "Universitatea Politehnica Timișoara"**
+**Undergraduate Student at Polytechnic University of Timișoara**
 
 **Automation and Computers, Computer and Information Technology Branch**
+
+[View My Resume](https://github.com/paulhondola/paulhondola/raw/main/Paul_Hondola_CV.pdf)
 
 ## Full Stack Web Developer at Hibyte
 
