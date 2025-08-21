@@ -48,11 +48,19 @@ Participated in RoNaQCI  (Romanian National Quantum Communication Infrastructure
 
 ## 👨‍💻 Projects
 
-[![Benchmark Suite](https://img.shields.io/badge/Benchmark_Suite-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/paulhondola/Benchmark-Suite)
-[![Treasure Hunt System](https://img.shields.io/badge/Treasure_Hunt_System-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/paulhondola/TreasureHunt)
-[![SafetyMap](https://img.shields.io/badge/SafetyMap-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/UniHack2024)
-[![FPGA Project](https://img.shields.io/badge/FPGA_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/LD-FPGA-Project/FPGA-Video-Transmission-and-Image-Processing)
-[![Arduino Project](https://img.shields.io/badge/Arduino_Project-345?style=flat-square&logo=Github&logoColor=white)](https://github.com/orgs/DEM-Arduino-Project/repositories)
+### Underwater Robotics Summer Camp - Deepblue Maker
+
+**Hangzhou Dianzi University, China | July 2025 - August 2025**
+
+Worked alongside a team of 6 students to design and build an underwater robot that can navigate through water and perform tasks such as mapping the environment and detecting sea life.
+
+#### Key Components:
+
+- **Mechanical Design**: CAD design in Solidworks and 3D printing of parts. Physical testing for water sealing and buoyancy.
+- **Electrical Systems**: STM32 microcontroller to control the robot's thrusters from a desktop computer.
+- **Software Development**: Raspberry Pi 5 for live camera feed and display. Developed an object detection model using YOLO to detect sea life.
+
+[![My Skills](https://skillicons.dev/icons?i=raspberrypi,py,c&perline=7)](https://skillicons.dev)
 
 ### Benchmark Suite Project
 
