@@ -2,9 +2,9 @@
 
 ## 🎓 Education
 
-**Undergraduate Student at Polytechnic University of Timișoara**
+### Undergraduate Student at Polytechnic University of Timișoara
 
-**Automation and Computers, Computer and Information Technology Branch**
+#### Automation and Computers, Computer and Information Technology Branch
 
 [View My Resume](https://github.com/paulhondola/paulhondola/raw/main/Paul_Hondola_CV.pdf)
 
@@ -39,6 +39,7 @@ Participated in Bitdefender's Academic Labs program focused on cybersecurity, wh
 ## Quantum Computing Experience
 
 Participated in RoNaQCI  (Romanian National Quantum Communication Infrastructure) Academic Labs program focused on:
+
 - Introduction to Quantum Computing and Communications
 - Linear Algebra for Quantum Computing
 - Qubits and Quantum Gates
@@ -54,7 +55,7 @@ Participated in RoNaQCI  (Romanian National Quantum Communication Infrastructure
 
 Worked alongside a team of 6 students to design and build an underwater robot that can navigate through water and perform tasks such as mapping the environment and detecting sea life.
 
-#### Key Components:
+#### Key Components
 
 - **Mechanical Design**: CAD design in Solidworks and 3D printing of parts. Physical testing for water sealing and buoyancy.
 - **Electrical Systems**: STM32 microcontroller to control the robot's thrusters from a desktop computer.
@@ -89,26 +90,26 @@ A cross-platform system performance benchmarking suite built for in-depth analys
 
 ### Treasure Hunt System – Interactive Shell CLI Game
 
-  - Introduces an interactive shell-like CLI program to manage hunts and treasures via commands
-  - Uses logs to track user operations, with symlinked logs for centralized access
-  - Implements a file-based data storage system with binary records
-  - Utilizes multi-process architecture and sigaction-based signal handling for inter-process communication
-  - Enables runtime features such as live monitoring, hunt and treasure inspection, and controlled shutdown of the
+- Introduces an interactive shell-like CLI program to manage hunts and treasures via commands
+- Uses logs to track user operations, with symlinked logs for centralized access
+- Implements a file-based data storage system with binary records
+- Utilizes multi-process architecture and sigaction-based signal handling for inter-process communication
+- Enables runtime features such as live monitoring, hunt and treasure inspection, and controlled shutdown of the
 monitor process
-  - Designed and tested in a Unix (MacOS) environment using Clang, Make, and standard system calls
+- Designed and tested in a Unix (MacOS) environment using Clang, Make, and standard system calls
 
 [![My Skills](https://skillicons.dev/icons?i=linux,c,cmake&perline=7)](https://skillicons.dev)
 
 ### SafetyMap - Community-driven Safety App
 
-#### Key Features:
+#### Key Features
 
 - Interactive Map: Mark and view safety alerts using Google Maps.
 - Real-Time Notifications: Alerts for hazards in your vicinity.
 - Automated Civic Complaints: Sends reports to local town halls.
 - Community Trust System: Users vote to verify alerts.
 
-#### Tech Stack:
+#### Tech Stack
 
 - Frontend: Java (Android)
 - Backend: Python (Django/Flask)
@@ -122,14 +123,14 @@ monitor process
 
 A video transmission and image processing system using FPGA, with real-time camera input and display via VGA. Supports basic image processing and integrates with OpenCV for face recognition through UART.
 
-#### Hardware & Tools:
+#### Hardware & Tools
 
 - FPGA: Xilinx Nexys 4 Artix-7
 - Camera: OV7670
 - IDE: AMD Vivado 2023
 - Languages: Verilog / VHDL, Python
 
-#### Features:
+#### Features
 
 - Video output to monitor via VGA
 - UART webcam feed for OpenCV-based face recognition
@@ -139,17 +140,17 @@ A video transmission and image processing system using FPGA, with real-time came
 
 ### Arduino Small Projects
 
-#### Hardware & Tools:
+#### Hardware
 
-  - Arduino UNO R4 WiFi
-  - I2C LCD Display
-  - DHT11 Temperature and Humidity Sensor
+- Arduino UNO R4 WiFi
+- I2C LCD Display
+- DHT11 Temperature and Humidity Sensor
 
-#### Projects:
+#### Projects
 
-  - Data Reading from Temperature and Humidity Sensors
-  - Data Retrieval using OpenWeather API Keys
-  - Data Output using an LCD Display or the on-board LED Dot Matrix
+- Data Reading from Temperature and Humidity Sensors
+- Data Retrieval using OpenWeather API Keys
+- Data Output using an LCD Display or the on-board LED Dot Matrix
 
 [![My Skills](https://skillicons.dev/icons?i=arduino,cpp&perline=7)](https://skillicons.dev)
 
