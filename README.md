@@ -8,58 +8,17 @@
 
 [View My Resume](https://github.com/paulhondola/paulhondola/raw/main/Paul_Hondola_CV.pdf)
 
-## Full Stack Web Developer at Hibyte
+### Full Stack Web Developer at Hibyte
 
 [![My Skills](https://skillicons.dev/icons?i=angular,nestjs,supabase,typescript,html,css,&perline=7)](https://skillicons.dev)
 
-## Cybersecurity Experience
-
-### Reverse Engineering and Malware Analysis Program
-
-Participated in Bitdefender's Academic Labs program focused on cybersecurity, where I:
-
-- Studied Android system architecture, its security model and APKs
-- Developed skills in static and dynamic analysis, decompilation, encryption and decryption
-- Examined Android application security and potential attack vectors
-- Analyzed Windows system architecture and DLLs
-- Studied briefly x86 Assembly Language and analyzed binaries
-- Reverse engineered simple encryption algorithms inside ransomware
-- Developed buffer overflow / stack overflow exploits
-
-### Tools & Technologies Used
-
-- **Android Studio + SDK (Command-line tools & Emulator):** Android app analysis and emulation for dynamic testing
-- **Jadx Decompiler:** Decompiled APKs for static analysis of Android applications
-- **Frida:** Unpacked dynamic loaded malware via frida-server hooking
-- **IDA Free and x64dbg:** Disassembled binaries to analyze and reverse engineer
-- **HxD and Gview:** Analyzed binary data and patched executables
+### Reverse Engineering and Malware Analysis Trainee at Bitdefender
 
 [![My Skills](https://skillicons.dev/icons?i=androidstudio,windows&perline=7)](https://skillicons.dev)
 
-## Quantum Computing Experience
-
-Participated in RoNaQCI  (Romanian National Quantum Communication Infrastructure) Academic Labs program focused on:
-
-- Introduction to Quantum Computing and Communications
-- Linear Algebra for Quantum Computing
-- Qubits and Quantum Gates
-- Entanglement, Teleportation and Quantum Cryptography
-- Quantum Simulators using Qiskit
-- Completed the course and earned the diploma at Polytechnic University of Timisoara
-
 ## 👨‍💻 Projects
 
-### Underwater Robotics Summer Camp - Deepblue Maker
-
-**Hangzhou Dianzi University, China | July 2025 - August 2025**
-
-Worked alongside a team of 6 students to design and build an underwater robot that can navigate through water and perform tasks such as mapping the environment and detecting sea life.
-
-#### Key Components
-
-- **Mechanical Design**: CAD design in Solidworks and 3D printing of parts. Physical testing for water sealing and buoyancy.
-- **Electrical Systems**: STM32 microcontroller to control the robot's thrusters from a desktop computer.
-- **Software Development**: Raspberry Pi 5 for live camera feed and display. Developed an object detection model using YOLO to detect sea life.
+### Underwater Robotics Summer Camp - Deepblue Maker, Hangzhou Dianzi University, China
 
 [![My Skills](https://skillicons.dev/icons?i=raspberrypi,py,c&perline=7)](https://skillicons.dev)
 
@@ -95,7 +54,7 @@ A cross-platform system performance benchmarking suite built for in-depth analys
 - Implements a file-based data storage system with binary records
 - Utilizes multi-process architecture and sigaction-based signal handling for inter-process communication
 - Enables runtime features such as live monitoring, hunt and treasure inspection, and controlled shutdown of the
-monitor process
+  monitor process
 - Designed and tested in a Unix (MacOS) environment using Clang, Make, and standard system calls
 
 [![My Skills](https://skillicons.dev/icons?i=linux,c,cmake&perline=7)](https://skillicons.dev)
@@ -164,14 +123,15 @@ A video transmission and image processing system using FPGA, with real-time came
 
 <div align="left">
 
-  <br><br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=paulhondola&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="Top Languages" />
+<br><br>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=paulhondola&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="Top Languages" />
 
   <!-- 🔥 GitHub Streak Stats --> <img src="https://streak-stats.demolab.com?user=paulhondola&theme=highcontrast&hide_border=true" alt="GitHub Streak" />
 
    <!-- 👁️ Profile Views -->
-  <br><br>
-  <img src="https://komarev.com/ghpvc/?username=paulhondola&label=Profile%20views&color=0e75b6&style=flat" alt="Visitor badge"/>
+
+<br><br>
+<img src="https://komarev.com/ghpvc/?username=paulhondola&label=Profile%20views&color=0e75b6&style=flat" alt="Visitor badge"/>
 
 </div>
 
