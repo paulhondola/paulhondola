@@ -6,6 +6,8 @@
 
 #### Automation and Computers, Computer and Information Technology Branch
 
+[Main University Repository](https://github.com/Brigada-Inginerilor-Amarati)
+
 [View My Resume](https://github.com/paulhondola/paulhondola/raw/main/Paul_Hondola_CV.pdf)
 
 ### Full Stack Web Developer at Hibyte
@@ -19,6 +21,10 @@
 ## 👨‍💻 Projects
 
 ### Underwater Robotics Summer Camp - Deepblue Maker, Hangzhou Dianzi University, China
+
+- STM32 microcontroller to control the robot's thrusters from a desktop computer.
+- Raspberry Pi 5 to get a live feed from the robot's camera and display it on a screen.
+- Developed an object detection model using YOLO to detect sea life.
 
 [![My Skills](https://skillicons.dev/icons?i=raspberrypi,py,c&perline=7)](https://skillicons.dev)
 
