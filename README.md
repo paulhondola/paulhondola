@@ -22,8 +22,6 @@ A comprehensive benchmarking suite implementing multiple dense matrix multiplica
 
 [![My Skills](https://skillicons.dev/icons?i=c,py&perline=7)](https://skillicons.dev)
 
-### Treasure Hunt System
-
 ### Underwater Robotics Summer Camp - Deepblue Maker, Hangzhou Dianzi University, China
 
 [![My Skills](https://skillicons.dev/icons?i=raspberrypi,py,c&perline=7)](https://skillicons.dev)
@@ -34,7 +32,7 @@ A cross-platform system performance benchmarking suite built for in-depth analys
 
 [![My Skills](https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,docker&perline=7)](https://skillicons.dev)
 
-### Treasure Hunt System – Interactive Shell CLI Game
+### Treasure Hunt System – Interactive Shell Data Mangement System
 
 [![My Skills](https://skillicons.dev/icons?i=linux,c,cmake&perline=7)](https://skillicons.dev)
 
