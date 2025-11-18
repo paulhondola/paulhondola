@@ -12,11 +12,17 @@
 
 ## 👨‍💻 Projects
 
+### Gamebox System
+
+A full stack monorepo for managing a game center, featuring a content management system with admin interface and user-facing web application. Features a profile page with friend system, game library, daily missions, tournaments and reservations system. Players feature an ability-based skill rating system based on recent matches, analyzed by an AI model.
+
+[![My Skills](https://skillicons.dev/icons?i=angular,nestjs,supabase&perline=7)](https://skillicons.dev)
+
 ### OpenMP Dense Matrix Multiplication Benchmark and Analysis
 
 A comprehensive benchmarking suite implementing multiple dense matrix multiplication algorithms in serial and parallel forms using OpenMP.
 
-[![My Skills](https://skillicons.dev/icons?i=c,py&perline=7)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=c,py,cmake&perline=7)](https://skillicons.dev)
 
 ### Underwater Robotics Summer Camp - Deepblue Maker, Hangzhou Dianzi University, China
 
@@ -45,14 +51,6 @@ A video transmission and image processing system using FPGA, with real-time came
 ### Arduino Small Projects
 
 [![My Skills](https://skillicons.dev/icons?i=arduino,cpp&perline=7)](https://skillicons.dev)
-
-## 🛠️ Technical Skills
-
-[![My Skills](https://skillicons.dev/icons?i=linux,apple,bash,git,c,cpp,py,java&perline=4)](https://skillicons.dev)
-
-## Future Learning Plan
-
-[![My Skills](https://skillicons.dev/icons?i=rust,zig,swift,docker,kubernetes&perline=7)](https://skillicons.dev)
 
 <div align="left">
 
