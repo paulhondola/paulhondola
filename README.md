@@ -10,10 +10,6 @@
 
 [View My Resume](https://github.com/paulhondola/paulhondola/raw/main/Paul_Hondola_CV.pdf)
 
-### Reverse Engineering and Malware Analysis Trainee at Bitdefender
-
-[![My Skills](https://skillicons.dev/icons?i=androidstudio,windows&perline=7)](https://skillicons.dev)
-
 ## 👨‍💻 Projects
 
 ### OpenMP Dense Matrix Multiplication Benchmark and Analysis
