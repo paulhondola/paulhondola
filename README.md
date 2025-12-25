@@ -18,11 +18,17 @@ A full stack monorepo for managing a game center, featuring a content management
 
 [![My Skills](https://skillicons.dev/icons?i=angular,nestjs,supabase&perline=7)](https://skillicons.dev)
 
+### Multithreaded and Distributed Image Processing Benchmarking Toolkit
+
+A high-performance hybrid parallel image processing framework utilizing OpenMP and MPI to apply complex convolution kernels to large datasets. Features comprehensive benchmarking across serial, multithreaded (shared memory), and distributed execution models, complete with performance analysis tools.
+
+[![My Skills](https://skillicons.dev/icons?i=c,py&perline=7)](https://skillicons.dev)
+
 ### OpenMP Dense Matrix Multiplication Benchmark and Analysis
 
 A comprehensive benchmarking suite implementing multiple dense matrix multiplication algorithms in serial and parallel forms using OpenMP.
 
-[![My Skills](https://skillicons.dev/icons?i=c,py,cmake&perline=7)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=c,py&perline=7)](https://skillicons.dev)
 
 ### Underwater Robotics Summer Camp - Deepblue Maker, Hangzhou Dianzi University, China
 
@@ -32,7 +38,7 @@ A comprehensive benchmarking suite implementing multiple dense matrix multiplica
 
 A cross-platform system performance benchmarking suite built for in-depth analysis and comparison of CPU, GPU, memory, and cache performance across workloads, architectures, and environments.
 
-[![My Skills](https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,docker&perline=7)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py,pytorch,docker&perline=7)](https://skillicons.dev)
 
 ### Treasure Hunt System – Interactive Shell Data Mangement System
 
