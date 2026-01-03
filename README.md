@@ -32,7 +32,7 @@ A comprehensive benchmarking suite implementing multiple dense matrix multiplica
 
 ### Underwater Robotics Summer Camp - Deepblue Maker, Hangzhou Dianzi University, China
 
-[![My Skills](https://skillicons.dev/icons?i=raspberrypi,py,c&perline=7)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=c,py,raspberrypi&perline=7)](https://skillicons.dev)
 
 ### Benchmark Suite Project
 
