@@ -20,7 +20,7 @@ A full stack monorepo for managing a game center, featuring a content management
 
 ### Multithreaded and Distributed Image Processing Benchmarking Toolkit
 
-A high-performance hybrid parallel image processing framework utilizing OpenMP and MPI to apply complex convolution kernels to large datasets. Features comprehensive benchmarking across serial, multithreaded (shared memory), and distributed execution models, complete with performance analysis tools.
+A high-performance hybrid parallel image processing framework utilizing OpenMP and MPI to apply complex convolution kernels to large datasets. Features comprehensive benchmarking across serial, multithreaded (shared memory), and distributed execution models (message passing, shared filesystem, task pool), complete with performance analysis tools.
 
 [![My Skills](https://skillicons.dev/icons?i=c,py&perline=7)](https://skillicons.dev)
 
