@@ -47,26 +47,6 @@ A comprehensive benchmarking suite implementing multiple dense matrix multiplica
 
 [![My Skills](https://skillicons.dev/icons?i=c,py,raspberrypi&perline=7)](https://skillicons.dev)
 
-### Benchmark Suite Project
-
-A cross-platform system performance benchmarking suite built for in-depth analysis and comparison of CPU, GPU, memory, and cache performance across workloads, architectures, and environments.
-
-[![My Skills](https://skillicons.dev/icons?i=py,pytorch,docker&perline=7)](https://skillicons.dev)
-
-### Treasure Hunt System – Interactive Shell Data Mangement System
-
-[![My Skills](https://skillicons.dev/icons?i=linux,c,cmake&perline=7)](https://skillicons.dev)
-
-### SafetyMap - Community-driven Safety App
-
-[![My Skills](https://skillicons.dev/icons?i=androidstudio,java,gradle,postgres,django,firebase&perline=7)](https://skillicons.dev)
-
-### FPGA Video Transmission & Image Processing
-
-A video transmission and image processing system using FPGA, with real-time camera input and display via VGA. Supports basic image processing and integrates with OpenCV for face recognition through UART.
-
-[![My Skills](https://skillicons.dev/icons?i=py,opencv&perline=7)](https://skillicons.dev)
-
 <div align="left">
 
 <br><br>
