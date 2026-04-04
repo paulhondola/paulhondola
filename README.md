@@ -12,6 +12,19 @@
 
 ## 👨‍💻 Projects
 
+### Vibecodium
+
+Collaborative browser-based IDE with real-time multi-user editing (Yjs CRDT), an AI coding agent (SSE streaming), sandboxed Docker execution, Github integration and one-click Vercel deploys. Built with BHVR stack. iTEC 2026 hackathon entry.
+
+[![My Skills](https://skillicons.dev/icons?i=react,vite,tailwind,bun,docker,vercel&perline=7)](https://skillicons.dev)
+
+### AtomC Compiler
+
+Compiler Frontend for a C-like language, implemented from scratch using Rust.
+Uses a lexer, parser, and semantic analyzer to process and validate source code.
+
+[![My Skills](https://skillicons.dev/icons?i=rust&perline=7)](https://skillicons.dev)
+
 ### Gamebox System
 
 A full stack monorepo for managing a game center, featuring a content management system with admin interface and user-facing web application. Features a profile page with friend system, game library, daily missions, tournaments and reservations system. Players feature an ability-based skill rating system based on recent matches, analyzed by an AI model.
@@ -53,10 +66,6 @@ A cross-platform system performance benchmarking suite built for in-depth analys
 A video transmission and image processing system using FPGA, with real-time camera input and display via VGA. Supports basic image processing and integrates with OpenCV for face recognition through UART.
 
 [![My Skills](https://skillicons.dev/icons?i=py,opencv&perline=7)](https://skillicons.dev)
-
-### Arduino Small Projects
-
-[![My Skills](https://skillicons.dev/icons?i=arduino,cpp&perline=7)](https://skillicons.dev)
 
 <div align="left">
 

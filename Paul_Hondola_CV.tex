@@ -156,13 +156,13 @@
 	\section{Technical Skills}
 	\begin{itemize}[leftmargin=0.15in, label={}]
 		\small{\item{
-		\textbf{Languages}{: C, C++, Python, Java, TypeScript, x86/ARM Assembly, SQL, Bash} \\
+		\textbf{Languages}{: C/C++, Python, Java, TypeScript, SQL, Bash} \\
 		
 		\textbf{High Performance Computing}{: MPI, OpenMP, POSIX Threads, SIMD, Shared Memory, Distributed Systems} \\
 		
-		\textbf{Systems and Tools}{: Linux, Docker, Git, Meson, Make, CMake, GDB, IDA Pro, Wireshark} \\
+		\textbf{Systems and Tools}{: Linux, Docker, Git, Meson, CMake, IDA Pro, Wireshark} \\
 
-		\textbf{Web Development}{: Angular, NestJS, Supabase, Payload CMS, REST APIs, HTML5/SCSS} \\
+		\textbf{Web Development}{: React/Angular, Bun, Hono, NestJS, Supabase, MongoDB, Vercel } \\
 		
 		\textbf{Data Analysis}{: NumPy, Pandas, Matplotlib, PyTorch} \\
 
@@ -173,6 +173,22 @@
 	%-----------PROJECTS-----------
 	\section{Projects}
 	\resumeSubHeadingListStart
+
+	\resumeProjectHeading
+	{\textbf{Vibecodium - Collaborative Browser-Based IDE} $|$ \emph{Bun, Hono, Vite, React, Docker, Vercel}}{Dec. 2025 -- Jan. 2026}
+	\resumeItemListStart
+		\resumeItem{Built a collaborative browser-based IDE with real-time multi-user editing (Yjs CRDT)}
+		\resumeItem{Integrated an AI coding assistant using Server-Sent Events (SSE) for real-time code generation and completion suggestions.}
+		\resumeItem{Implmented a sandboxed Docker execution environment for running user-submitted code with isolated filesystem and network access.}
+		\resumeItem{Integrated one-click Vercel deployment for user projects with automatic environment variable configuration and build pipeline orchestration.}
+		\resumeItem{Entry for iTEC 2026 Hackathon - 1st Place in Web Development Category}
+	\resumeItemListEnd
+
+	\resumeProjectHeading
+	{\textbf{AtomC Compiler} $|$ \emph{Rust}}{Dec. 2025 -- Jan. 2026}
+	\resumeItemListStart
+		\resumeItem{Developed a C-like language compiler from scratch using Rust, implementing a lexer, parser, and semantic analyzer to process and validate C source code.}
+	\resumeItemListEnd
 
 	\resumeProjectHeading
 	{\textbf{Distributed Image Processing System} $|$ \emph{C, MPI, OpenMP, Meson, Python, Assembly}}{Dec. 2025 -- Jan. 2026}
@@ -203,15 +219,6 @@
 		\resumeItem{Engineered a Docker-based execution environment to ensure reproducibility of results across Windows, Linux (Asahi), and macOS systems.}
 	\resumeItemListEnd
 	
-	\resumeProjectHeading {\textbf{Treasure Hunt System} $|$ \emph{C, POSIX system calls, Clang, Make, Git}}{Mar. 2025 -- May 2025}
-
-	\resumeItemListStart 
-		\resumeItem{Introduces an interactive shell-like CLI program to manage hunts and treasures via commands}
-		\resumeItem{Uses logs to track user operations, with symlinked logs for centralized access}
-		\resumeItem{Utilizes multi-process architecture and sigaction-based signal handling for inter-process communication}
-		\resumeItem{Enables runtime features such as live monitoring, hunt and treasure inspection, and controlled shutdown of the monitor process}
-	\resumeItemListEnd
-
 	\resumeProjectHeading
 	{\textbf{SafetyMap - Community-driven Safety App} $|$ \emph{Java, Android, Google Maps API, Firebase}}{Nov. 2024 -- Nov. 2024}
 
