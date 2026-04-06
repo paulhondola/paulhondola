@@ -55,15 +55,9 @@ A comprehensive benchmarking suite implementing multiple dense matrix multiplica
 
 <div align="left">
 
-<br><br>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=paulhondola&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="Top Languages" />
 
-  <!-- 🔥 GitHub Streak Stats --> <img src="https://streak-stats.demolab.com?user=paulhondola&theme=highcontrast&hide_border=true" alt="GitHub Streak" />
-
-   <!-- 👁️ Profile Views -->
-
-<br><br>
-<img src="https://komarev.com/ghpvc/?username=paulhondola&label=Profile%20views&color=0e75b6&style=flat" alt="Visitor badge"/>
+<!-- 🔥 GitHub Streak Stats --> <img src="https://streak-stats.demolab.com?user=paulhondola&theme=highcontrast&hide_border=true" alt="GitHub Streak" />
 
 </div>
 
