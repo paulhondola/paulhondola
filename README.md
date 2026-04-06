@@ -20,10 +20,16 @@ Collaborative browser-based IDE with real-time multi-user editing (Yjs CRDT), an
 
 ### AtomC Compiler
 
-Compiler Frontend for a C-like language, implemented from scratch using Rust.
-Uses a lexer, parser, and semantic analyzer to process and validate source code.
+Recursive-descent compiler frontend for a C-like language, written from scratch in Rust.
+Implements lexical analysis, tokenization, and syntax validation with save/restore backtracking.
 
 [![My Skills](https://skillicons.dev/icons?i=rust&perline=7)](https://skillicons.dev)
+
+### Java Decompiler
+
+CLI tool that uses Java reflection to introspect compiled .jar files and generate yUML / PlantUML class diagrams.
+
+[![My Skills](https://skillicons.dev/icons?i=java&perline=7)](https://skillicons.dev)
 
 ### Gamebox System
 

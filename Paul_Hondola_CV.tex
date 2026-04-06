@@ -114,7 +114,7 @@
 
 	\resumeSubheading{Bachelor of Science in Computer Engineering}{Oct. 2023 -- Jun. 2027}{Universitatea Politehnica Timisoara}{}
 	\resumeItemListStart
-		\resumeItem{Relevant Coursework: Data Structures and Algorithms, Operating Systems, Computer Architecture, Distributed Systems, Networking, Web Developement.}
+		\resumeItem{Relevant Coursework: Data Structures and Algorithms, Operating Systems, Computer Architecture, Distributed Systems, Networking, Web Development.}
 	\resumeItemListEnd
     
 	\resumeSubHeadingListEnd
@@ -123,24 +123,16 @@
 	\section{Experience}
 	\resumeSubHeadingListStart
 
-	\resumeSubheading {Software Engineer Intern}{Mar. 2026 -- Present} {Nokia $|$ \emph{Python, Javascript, CI/CD, Docker}}{}
+	\resumeSubheading {Software Engineer Intern}{Mar. 2026 -- Present} {Nokia $|$ \emph{Python, Javascript, Jenkins, Docker}}{}
     \resumeItemListStart
         \resumeItem{Contributed to the Mobile Network Metrics Automation platform, developing ETL scripts and automated test pipelines for various analytics.}
     \resumeItemListEnd
 
     \resumeSubheading {Full Stack Developer Intern}{Jul. 2025 -- Oct. 2025} {Hibyte $|$ \emph{Typescript, Angular, NestJS, Payload CMS, Supabase}}{}
     \resumeItemListStart 
-        \resumeItem{Engineered 'GameBox', a scalable full-stack monorepo for game center management, integrating a customer-facing web app with a comprehensive admin CMS.}
+        \resumeItem{Engineered 'GameBox', a full-stack monorepo for game center management, integrating a customer-facing web app with a comprehensive admin CMS.}
         \resumeItem{Built a responsive frontend architecture using Angular, TypeScript, and SCSS, ensuring high performance and maintainability.}
         \resumeItem{Developed a robust backend system using NestJS and Payload CMS, leveraging Supabase for secure authentication and real-time database operations.}
-    \resumeItemListEnd
-
-	\resumeSubheading{Deepblue Maker - Underwater Robotics Summer Camp}{Jul. 2025 -- Aug. 2025}{Hangzhou Dianzi University, China}{}
-    \resumeItemListStart
-        \resumeItem{Co-engineered a remotely operated underwater vehicle (ROV) capable of environmental mapping and real-time object detection.}
-        \resumeItem{Mechanical: Designed and 3D-printed a custom water-sealed chassis using SolidWorks; validated buoyancy and structural integrity through physical testing.}
-        \resumeItem{Embedded Systems: Programmed an STM32 microcontroller for precise thruster propulsion control and hardware interfacing.}
-        \resumeItem{Computer Vision: Deployed a YOLO-based object detection model on a Raspberry Pi 5 to identify sea life from live camera feeds.}
     \resumeItemListEnd
 
 	\resumeSubheading {Malware Analyst Trainee}{Apr. 2025 -- Jun. 2025} {Bitdefender $|$ \emph{Java, Python, C, x86 Assembly, IDA Pro, jadx}}{}
@@ -162,7 +154,7 @@
 		
 		\textbf{Systems and Tools}{: Linux, Docker, Git, Meson, CMake, IDA Pro, Wireshark} \\
 
-		\textbf{Web Development}{: React/Angular, Bun, Hono, NestJS, Supabase, MongoDB, Vercel } \\
+		\textbf{Web Development}{: React, Angular, Hono, NestJS, Supabase, MongoDB, Vercel } \\
 		
 		\textbf{Data Analysis}{: NumPy, Pandas, Matplotlib, PyTorch} \\
 
@@ -175,19 +167,28 @@
 	\resumeSubHeadingListStart
 
 	\resumeProjectHeading
-	{\textbf{Vibecodium - Collaborative Browser-Based IDE} $|$ \emph{Bun, Hono, Vite, React, Docker, Vercel}}{Dec. 2025 -- Jan. 2026}
+	{\textbf{Vibecodium - Collaborative Browser-Based IDE} $|$ \emph{Bun, Hono, Vite, React, Docker}}{Mar. 2026 -- Present}
 	\resumeItemListStart
 		\resumeItem{Built a collaborative browser-based IDE with real-time multi-user editing (Yjs CRDT)}
 		\resumeItem{Integrated an AI coding assistant using Server-Sent Events (SSE) for real-time code generation and completion suggestions.}
-		\resumeItem{Implmented a sandboxed Docker execution environment for running user-submitted code with isolated filesystem and network access.}
+		\resumeItem{Implemented a sandboxed Docker execution environment for running user-submitted code with isolated filesystem and network access.}
 		\resumeItem{Integrated one-click Vercel deployment for user projects with automatic environment variable configuration and build pipeline orchestration.}
-		\resumeItem{Entry for iTEC 2026 Hackathon - 1st Place in Web Development Category}
+		\resumeItem{Entry for iTEC 2026 Hackathon - 1st Place in Web Development Competition}
 	\resumeItemListEnd
 
 	\resumeProjectHeading
-	{\textbf{AtomC Compiler} $|$ \emph{Rust}}{Dec. 2025 -- Jan. 2026}
+	{\textbf{AtomC Compiler} $|$ \emph{Rust, Compiler Design}}{Mar. 2026 -- May. 2026}
 	\resumeItemListStart
-		\resumeItem{Developed a C-like language compiler from scratch using Rust, implementing a lexer, parser, and semantic analyzer to process and validate C source code.}
+		\resumeItem{Developed a C-like language compiler frontend from scratch using Rust}
+		\resumeItem{Implemented a lexer, parser, and semantic analyzer to process and validate C source code.}
+		\resumeItem{Established CI pipeline (rustfmt → clippy → build → test) with integration test suites for lexer, parser, and error handling.}
+	\resumeItemListEnd
+
+	\resumeProjectHeading
+	{\textbf{Java Decompiler} $|$ \emph{Java, Reverse Engineering}}{Mar. 2026 -- Apr. 2026}
+	\resumeItemListStart
+		\resumeItem{Built a CLI tool in Java that uses reflection to reverse-engineer compiled .jar files into UML class diagrams (yUML and PlantUML formats).}
+		\resumeItem{Implements a layered pipeline (load → filter → inspect → format), discovers class relationships (inheritance, interfaces, associations, dependencies) entirely at runtime, and supports glob-based ignore patterns via a picocli CLI.}
 	\resumeItemListEnd
 
 	\resumeProjectHeading
@@ -201,7 +202,7 @@
 	\resumeItemListEnd
 
 	\resumeProjectHeading
-	{\textbf{OpenMP Dense Matrix Multiplication} $|$ \emph{C, OpenMP, Meson, Python, Assembly}}{Oct. 2025 -- Nov. 2025}
+	{\textbf{Parallel DMM Benchmark and Analysis} $|$ \emph{C, OpenMP, Meson, Python, Assembly}}{Oct. 2025 -- Nov. 2025}
 	\resumeItemListStart
 		\resumeItem{Developed a comprehensive benchmarking suite for dense matrix multiplication, implementing serial and parallel algorithms with OpenMP.}
 		\resumeItem{Implemented loop permutations and cache blocking (tiling) strategies to optimize memory access patterns and minimize cache misses.}
@@ -209,35 +210,16 @@
 		\resumeItem{Achieved significant speedups by confirming auto-vectorization and optimizing critical loops for AVX/SSE/NEON instructions.}
 		\resumeItem{Automated performance reporting with CSV exports and Python visualization (Pandas/Seaborn) to measure thread scaling and efficiency.}
 	\resumeItemListEnd
+  
+	\resumeSubheading{Deepblue Maker - Underwater Robotics Summer Camp}{Jul. 2025 -- Aug. 2025}{Hangzhou Dianzi University, China}{}
+    \resumeItemListStart
+        \resumeItem{Co-engineered a remotely operated underwater vehicle (ROV) capable of environmental mapping and real-time object detection.}
+        \resumeItem{Mechanical: Designed and 3D-printed a custom water-sealed chassis using SolidWorks; validated buoyancy and structural integrity through physical testing.}
+        \resumeItem{Embedded Systems: Programmed an STM32 microcontroller for precise thruster propulsion control and hardware interfacing.}
+        \resumeItem{Computer Vision: Deployed a YOLO-based object detection model on a Raspberry Pi 5 to identify sea life from live camera feeds.}
+    \resumeItemListEnd
 
-	\resumeProjectHeading
-	{\textbf{Cross-Platform System Benchmark Suite} $|$ \emph{Python, NumPy, PyTorch, Docker, SQL}}{May. 2025 -- Jun. 2025}
-	\resumeItemListStart
-		\resumeItem{Architected a modular benchmarking framework to evaluate CPU, GPU, and memory performance across heterogeneous architectures (x86, ARM64/Apple Silicon).}
-		\resumeItem{Implemented low-level microbenchmarks to quantify memory latency, bandwidth saturation, and cache hierarchy degradation using pointer chasing and vectorized NumPy operations.}
-		\resumeItem{Integrated hardware-accelerated ML backends (PyTorch MPS for macOS, TensorFlow) to measure accelerator efficiency vs. CPU baselines.}
-		\resumeItem{Engineered a Docker-based execution environment to ensure reproducibility of results across Windows, Linux (Asahi), and macOS systems.}
-	\resumeItemListEnd
-	
-	\resumeProjectHeading
-	{\textbf{SafetyMap - Community-driven Safety App} $|$ \emph{Java, Android, Google Maps API, Firebase}}{Nov. 2024 -- Nov. 2024}
-
-	\resumeItemListStart 
-        \resumeItem{Interactive Map: Mark and view safety alerts using Google Maps}
-	   	\resumeItem{User Alerts: Users can drop pins on the map to report issues such as thefts, road hazards, or other dangers}
-	   	\resumeItem{Notifications: Real-time notifications for users approaching an area with a safety alert}
-	   	\resumeItem{Community Trust System: Users can vote on the validity of alerts, contributing to a community trust score}
-	\resumeItemListEnd
-
-	\resumeProjectHeading {\textbf{FPGA Video Transmission and Image Processing} $|$ \emph{Verilog, VHDL, Xilinx FPGA}}{Mar. 2024 -- Jun. 2024}
-
-	\resumeItemListStart
-	   	\resumeItem{Hardware based video transmission and image processing system, with camera input and display via VGA. }
-	   	\resumeItem{Supports basic image processing and integrates with OpenCV for face recognition through UART.}
-	\resumeItemListEnd 
-    
-    \resumeSubHeadingListEnd
-
+	\resumeSubHeadingListEnd
 	%-----------CERTIFICATES-----------
 	%----------------------------------
 
