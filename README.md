@@ -1,6 +1,6 @@
 # Hey there! 👋
 
-## 🎓 Education
+## Education
 
 ### Undergraduate Student at Polytechnic University of Timișoara
 
@@ -10,13 +10,15 @@
 
 [View My Resume](https://github.com/paulhondola/paulhondola/raw/main/Paul_Hondola_CV.pdf)
 
-## 👨‍💻 Projects
+## Full Stack Applications
 
 ### Vibecodium
 
 Collaborative browser-based IDE with real-time multi-user editing (Yjs CRDT), an AI coding agent (SSE streaming), sandboxed Docker execution, Github integration and one-click Vercel deploys. Built with BHVR stack. iTEC 2026 hackathon entry.
 
 [![My Skills](https://skillicons.dev/icons?i=react,vite,tailwind,bun,docker,vercel&perline=7)](https://skillicons.dev)
+
+## Low Level & Systems
 
 ### AtomC Compiler
 
@@ -25,17 +27,13 @@ Implements lexical analysis, tokenization, and syntax validation with save/resto
 
 [![My Skills](https://skillicons.dev/icons?i=rust&perline=7)](https://skillicons.dev)
 
-### Java Decompiler
+### ArchLens Decompiler
 
-CLI tool that uses Java reflection to introspect compiled .jar files and generate yUML / PlantUML class diagrams.
+CLI tool that generates PlantUML / yUML class diagrams from compiled .jar and .dll binaries via reflection.
 
-[![My Skills](https://skillicons.dev/icons?i=java&perline=7)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=python,java,cs&perline=7)](https://skillicons.dev)
 
-### Gamebox System
-
-A full stack monorepo for managing a game center, featuring a content management system with admin interface and user-facing web application. Features a profile page with friend system, game library, daily missions, tournaments and reservations system. Players feature an ability-based skill rating system based on recent matches, analyzed by an AI model.
-
-[![My Skills](https://skillicons.dev/icons?i=angular,nestjs,supabase&perline=7)](https://skillicons.dev)
+## High Performance Computing
 
 ### Multithreaded and Distributed Image Processing Benchmarking Toolkit
 
@@ -49,13 +47,11 @@ A comprehensive benchmarking suite implementing multiple dense matrix multiplica
 
 [![My Skills](https://skillicons.dev/icons?i=c,py&perline=7)](https://skillicons.dev)
 
-### Underwater Robotics Summer Camp - Deepblue Maker, Hangzhou Dianzi University, China
-
-[![My Skills](https://skillicons.dev/icons?i=c,py,raspberrypi&perline=7)](https://skillicons.dev)
-
 <div align="left">
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=paulhondola&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="Top Languages" />
+
+[![GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=paulhondola&theme=github)](https://github.com/paulhondola/github-readme-activity-graph)
 
 <!-- 🔥 GitHub Streak Stats --> <img src="https://streak-stats.demolab.com?user=paulhondola&theme=highcontrast&hide_border=true" alt="GitHub Streak" />
 
