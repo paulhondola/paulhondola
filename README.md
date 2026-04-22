@@ -27,7 +27,7 @@ Implements lexical analysis, tokenization, and syntax validation with save/resto
 
 [![My Skills](https://skillicons.dev/icons?i=rust&perline=7)](https://skillicons.dev)
 
-### ArchLens Decompiler
+### ArchLens Analyzer
 
 CLI tool that generates PlantUML / yUML class diagrams from compiled .jar and .dll binaries via reflection.
 
