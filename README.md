@@ -22,10 +22,10 @@ Collaborative browser-based IDE with real-time multi-user editing (Yjs CRDT), an
 
 ### AtomC Compiler
 
-Recursive-descent compiler frontend for a C-like language, written from scratch in Rust.
+Recursive-descent compiler frontend for a C-like language, written from scratch in C.
 Implements lexical analysis, tokenization, and syntax validation with save/restore backtracking.
 
-[![My Skills](https://skillicons.dev/icons?i=rust&perline=7)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=c&perline=7)](https://skillicons.dev)
 
 ### ArchLens Analyzer
 
