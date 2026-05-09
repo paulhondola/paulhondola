@@ -16,7 +16,7 @@
 
 Collaborative browser-based IDE with real-time multi-user editing (Yjs CRDT), an AI coding agent (SSE streaming), sandboxed Docker execution, Github integration and one-click Vercel deploys. Built with BHVR stack. iTEC 2026 hackathon entry.
 
-[![My Skills](https://skillicons.dev/icons?i=react,vite,tailwind,bun,docker,vercel&perline=7)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=react,tailwind,bun,supabase,docker,vercel&perline=7)](https://skillicons.dev)
 
 ## Low Level & Systems
 
