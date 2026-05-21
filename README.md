@@ -6,8 +6,6 @@
 
 #### Automation and Computers, Computer and Information Technology Branch
 
-[Main University Repository](https://github.com/Brigada-Inginerilor-Amarati)
-
 [View My Resume](https://github.com/paulhondola/paulhondola/raw/main/Paul_Hondola_CV.pdf)
 
 ## Full Stack Applications
