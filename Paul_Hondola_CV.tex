@@ -123,16 +123,20 @@
 	\section{Experience}
 	\resumeSubHeadingListStart
 
-	\resumeSubheading {Software Engineer Intern}{Mar. 2026 -- Present} {Nokia $|$ \emph{Python, Javascript, Jenkins, Docker}}{}
+	\resumeSubheading {Software Engineer Intern}{Mar. 2026 -- Present} {Nokia $|$ \emph{Python, Jenkins, Docker, Power BI}}{}
     \resumeItemListStart
-        \resumeItem{Contributed to the Mobile Network Metrics Automation platform, developing ETL scripts and automated test pipelines for various analytics.}
+        \resumeItem{Profiled and optimized data-processing Python scripts, reducing end-to-end runtime by 50\% through algorithmic refactoring and numpy vectorization.}
+        \resumeItem{Contributed to the Mobile Infrastructure Metrics Automation platform, developing ETL scripts and automated test pipelines for various analytics.}
+		\resumeItem{Enhanced CI/CD pipelines using Jenkins and Docker for scalable metric processing and analysis.}
+		\resumeItem{Maintained and improved interactive Power BI dashboards to surface key metrics and KPIs.}
+		\resumeItem{Contributed reusable modules to the team's shared core library, extending common functionality leveraged across multiple internal automation projects.}
     \resumeItemListEnd
 
     \resumeSubheading {Full Stack Developer Intern}{Jul. 2025 -- Oct. 2025} {Hibyte $|$ \emph{Typescript, Angular, NestJS, Payload CMS, Supabase}}{}
     \resumeItemListStart
-        \resumeItem{Engineered 'GameBox', a full-stack monorepo for game center management, integrating a customer-facing web app with a comprehensive admin CMS.}
-        \resumeItem{Built a responsive frontend architecture using Angular, TypeScript, and SCSS, ensuring high performance and maintainability.}
-        \resumeItem{Developed a robust backend system using NestJS and Payload CMS, leveraging Supabase for secure authentication and real-time database operations.}
+        \resumeItem{Engineered 'GameBox', a full-stack monorepo for game center management, integrating a customer-facing web app with an admin CMS.}
+        \resumeItem{Built a responsive frontend architecture using Angular, TypeScript, and SCSS.}
+        \resumeItem{Developed a backend system using NestJS and Payload CMS, leveraging Supabase for secure authentication and real-time database operations.}
     \resumeItemListEnd
 
 	\resumeSubheading {Malware Analyst Trainee}{Apr. 2025 -- Jun. 2025} {Bitdefender $|$ \emph{Java, Python, C, x86 Assembly, IDA Pro, jadx}}{}
@@ -148,15 +152,17 @@
 	\section{Technical Skills}
 	\begin{itemize}[leftmargin=0.15in, label={}]
 		\small{\item{
-		\textbf{Languages}{: C/C++, Python, Java, TypeScript, SQL, Bash} \\
+		\textbf{Languages}{: C/C++, C\#, Python, Java, TypeScript, SQL, Bash} \\
 
 		\textbf{High Performance Computing}{: MPI, OpenMP, POSIX Threads, SIMD, Shared Memory, Distributed Systems} \\
 
-		\textbf{Systems and Tools}{: Linux, Docker, Git, Meson, CMake, IDA Pro, Wireshark} \\
+		\textbf{Systems and Tools}{: Linux, Docker, Jenkins, Git, Meson, CMake, Postman, IDA Pro, jadx, Wireshark} \\
 
-		\textbf{Web Development}{: React, Angular, Hono, NestJS, Supabase } \\
+		\textbf{Web Development}{: React, Angular, NestJS, ASP.NET Core, Hono} \\
 
-		\textbf{Data Analysis}{: NumPy, Pandas, Matplotlib, PyTorch} \\
+		\textbf{Databases}{: PostgreSQL, Supabase, Entity Framework Core} \\
+
+		\textbf{Data Analysis}{: NumPy, Pandas, Matplotlib, PyTorch, Power BI} \\
 
 		\textbf{Spoken Languages}{: English (C1/Advanced), Romanian (Native)}
 		}}
@@ -169,11 +175,21 @@
 	\resumeProjectHeading
 	{\textbf{Vibecodium - Collaborative Browser-Based IDE} $|$ \emph{React, Hono, Bun, Supabase, Docker, Vercel}}{Mar. 2026 -- Present}
 	\resumeItemListStart
-		\resumeItem{Built a collaborative browser-based IDE with real-time multi-user editing (Yjs CRDT)}
+		\resumeItem{Won 1st Place in Web Development at the iTEC 2026 Hackathon.}
+		\resumeItem{Built a collaborative browser-based IDE with real-time multi-user editing (Yjs CRDT).}
 		\resumeItem{Integrated an AI coding assistant using Server-Sent Events (SSE) for real-time code generation and completion suggestions.}
 		\resumeItem{Implemented a sandboxed Docker execution environment for running user-submitted code with isolated filesystem and network access.}
 		\resumeItem{Integrated one-click Vercel deployment for user projects with automatic environment variable configuration and build pipeline orchestration.}
-		\resumeItem{Entry for iTEC 2026 Hackathon - 1st Place in Web Development Competition.}
+	\resumeItemListEnd
+
+	\resumeProjectHeading
+	{\textbf{\href{https://github.com/paulhondola/Smart-Shopping-Assistant}{\underline{Smart Shopping Assistant}}} $|$ \emph{React, TypeScript, ASP.NET Core, PostgreSQL, OpenAI}}{Apr. 2026 -- Jun. 2026}
+	\resumeItemListStart
+		\resumeItem{Built a full-stack e-commerce platform with an AI-powered agentic cart analyzer, developed within the LigaAC Labs x NetRom industry mentorship program.}
+		\resumeItem{Architected a sequential two-agent LLM pipeline that detects active and near-miss promotions and composes personalized product recommendations.}
+		\resumeItem{Engineered a layered ASP.NET Core backend over PostgreSQL with Entity Framework Core and JWT role-based authentication.}
+		\resumeItem{Kept a deterministic server-side promotion engine authoritative over the LLM to ensure pricing accuracy.}
+		\resumeItem{Developed a responsive React 19 + TypeScript SPA (Vite, Material-UI, TanStack Query) consuming the REST API.}
 	\resumeItemListEnd
 
 	\resumeProjectHeading
@@ -186,7 +202,7 @@
 	\resumeProjectHeading
 	{\textbf{AtomC Compiler} $|$ \emph{C, Meson, Compiler Design}}{Mar. 2026 -- May. 2026}
 	\resumeItemListStart
-		\resumeItem{Developed a C-like language compiler frontend from scratch in C}
+		\resumeItem{Developed a C-like language compiler frontend from scratch in C.}
 		\resumeItem{Implemented a lexer, parser, and semantic analyzer to process and validate C source code.}
 		\resumeItem{Established CI pipeline with integration test suites for lexer, parser, domain/type analyzer, stack-based virtual machine and code generator.}
 	\resumeItemListEnd
@@ -196,7 +212,7 @@
 	\resumeItemListStart
 		\resumeItem{Implemented a high-performance hybrid parallel image processing engine utilizing MPI for distributed memory and OpenMP for shared memory parallelism.}
 		\resumeItem{Engineered diverse parallel architectures including a standard multithreaded approach, distributed message passing, shared filesystem optimization, a producer-consumer task pool model and hybrid parallelism.}
-		\resumeItem{Validated the efficiency of SIMD vectorization by inspecting generated assembly code across different compiler optimization levels, ensuring maximal hardware utilization.}
+		\resumeItem{Validated the efficiency of SIMD vectorization by inspecting generated assembly code across different compiler optimization levels.}
 		\resumeItem{Optimized computationally intensive convolution kernels (Gaussian Blur, Ridge Detection) for processing large BMP images across cluster nodes.}
 		\resumeItem{Developed an automated benchmarking suite with Python visualization to analyze strong scaling, speedup, and parallel efficiency.}
 	\resumeItemListEnd
@@ -204,11 +220,8 @@
 	\resumeProjectHeading
 	{\textbf{Parallel DMM Benchmark and Analysis} $|$ \emph{C, OpenMP, Meson, Python, Assembly}}{Oct. 2025 -- Nov. 2025}
 	\resumeItemListStart
-		\resumeItem{Developed a comprehensive benchmarking suite for dense matrix multiplication, implementing serial and parallel algorithms with OpenMP.}
+		\resumeItem{Developed a benchmarking suite for dense matrix multiplication, implementing serial and parallel algorithms with OpenMP.}
 		\resumeItem{Implemented loop permutations and cache blocking (tiling) strategies to optimize memory access patterns and minimize cache misses.}
-		\resumeItem{Analyzed the impact of compiler optimization levels (-O0 vs -O3) by inspecting generated assembly code to verify SIMD vectorization usage.}
-		\resumeItem{Achieved significant speedups by confirming auto-vectorization and optimizing critical loops for AVX/SSE/NEON instructions.}
-		\resumeItem{Automated performance reporting with CSV exports and Python visualization (Pandas/Seaborn) to measure thread scaling and efficiency.}
 	\resumeItemListEnd
 
 	\resumeSubheading{Deepblue Maker - Underwater Robotics Summer Camp}{Jul. 2025 -- Aug. 2025}{Hangzhou Dianzi University, China}{}
