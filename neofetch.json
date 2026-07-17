@@ -1,0 +1,57 @@
+{
+  "coloredImage": true,
+  "removeBackground": true,
+  "imageScale": 1,
+  "sections": [
+    {
+      "title": "{{username}}@github",
+      "fields": [
+        {
+          "key": "Name",
+          "value": "Paul Hondola"
+        },
+        {
+          "key": "Location",
+          "value": "Timișoara, România"
+        },
+        {
+          "key": "Created",
+          "value": "{{created}}"
+        },
+        {
+          "key": "Uptime",
+          "value": "{{uptime}}"
+        },
+        {
+          "key": "Company",
+          "value": "Nokia (Software Engineer Intern)"
+        }
+      ]
+    },
+    {
+      "fields": [
+        {
+          "key": "Languages",
+          "value": "C/C++, Python, Java, TypeScript, C#"
+        },
+        {
+          "key": "IDE",
+          "value": "Cursor, VSCode"
+        }
+      ]
+    },
+    {
+      "title": "- Contact",
+      "fields": [
+        {
+          "key": "Email",
+          "value": "paulhondola@gmail.com"
+        },
+        {
+          "key": "LinkedIn",
+          "value": "paulhondola"
+        }
+      ]
+    }
+  ]
+}

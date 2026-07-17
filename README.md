@@ -1,4 +1,4 @@
-# Hey there! 👋
+![Neofetch Stats](https://neofetch-profile.vercel.app/api?username=paulhondola&theme=github-dark&config=https%3A%2F%2Fraw.githubusercontent.com%2Fpaulhondola%2Fpaulhondola%2Fmain%2Fneofetch.json)
 
 ## Education
 
@@ -17,6 +17,12 @@ Collaborative browser-based IDE with real-time multi-user editing (Yjs CRDT), an
 [![My Skills](https://skillicons.dev/icons?i=react,tailwind,bun,supabase,docker,vercel&perline=7)](https://skillicons.dev)
 
 ## Low Level & Systems
+
+### Groundly
+
+Local-first course knowledge base and Model Context Protocol (MCP) server for AI agents. Parses course materials via Docling OCR and indexes them locally to enable zero-hallucination Q&A with page-level citations, execution-verified study quizzes, and Anki flashcard generation. Features hybrid retrieval, GraphRAG, and cross-host study tracking. Built as a Bachelor thesis project.
+
+[![My Skills](https://skillicons.dev/icons?i=python,sqlite,fastapi,openai&perline=7)](https://skillicons.dev)
 
 ### AtomC Compiler
 
@@ -45,15 +51,10 @@ A comprehensive benchmarking suite implementing multiple dense matrix multiplica
 
 [![My Skills](https://skillicons.dev/icons?i=c,py&perline=7)](https://skillicons.dev)
 
-<div align="left">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=paulhondola&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="Top Languages" />
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=paulhondola&theme=tokyo-night)
 
-[![GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=paulhondola&theme=github)](https://github.com/paulhondola/github-readme-activity-graph)
-
-<!-- 🔥 GitHub Streak Stats --> <img src="https://streak-stats.demolab.com?user=paulhondola&theme=highcontrast&hide_border=true" alt="GitHub Streak" />
-
-</div>
+![GitHub Streak](https://streak-stats.demolab.com?user=paulhondola&theme=dark)
 
 <div align="center">
   <picture>
