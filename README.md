@@ -22,7 +22,7 @@ Local-first academic knowledge base and Model Context Protocol (MCP) server for 
 
 ---
 
-### rayon-gemm
+### gemm-bench
 High-performance dense matrix multiplication (GEMM) benchmarking suite and compute exploration pipeline. Evaluates cache efficiency, data locality, and throughput across CPU multi-threading and GPU hardware accelerators, paired with an interactive performance visualization dashboard.
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
