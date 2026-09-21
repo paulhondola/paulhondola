@@ -3,7 +3,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[letterpaper, 11pt]{article}
+\documentclass[a4paper, 8pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -18,17 +18,6 @@
 \usepackage{tabularx}
 \input{glyphtounicode}
 
-%----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
 \pagestyle{fancy}
 \fancyhf{}
 \fancyfoot{}
@@ -39,8 +28,11 @@
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.6in}
+
+% Slightly tighter bullets (space above each list is left untouched)
+\setlist[itemize]{itemsep=2pt, parsep=0pt, topsep=2pt}
 
 \urlstyle{same}
 
@@ -63,27 +55,27 @@
 \newcommand{\resumeItem}[1]{ \item\small{ {#1 \vspace{-2pt}} } }
 
 \newcommand{\resumeSubheading}[4]{
-\vspace{-2pt}
+\vspace{3pt}
 \item
 \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
 	\textbf{#1}       & #2                 \\
 	\textit{\small#3} & \textit{\small #4} \\
 \end{tabular*}
-\vspace{-7pt}
+\vspace{-3pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{ \item
 \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
 	\textit{\small#1} & \textit{\small #2} \\
 \end{tabular*}
-\vspace{-7pt}
+\vspace{-3pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{ \item
 \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
 	\small#1 & #2 \\
 \end{tabular*}
-\vspace{-7pt}
+\vspace{-2pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}
@@ -95,7 +87,7 @@
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}
-\vspace{-5pt}}
+\vspace{-2pt}}
 
 \begin{document}
 	%----------HEADING----------
@@ -103,7 +95,7 @@
 	\begin{center}
 		\textbf{\Huge \scshape Paul Hondola} \\
 		\vspace{1pt}
-		\small +40745166873 $|$ \href{mailto:paulhondola@gmail.com}{\underline{paulhondola@gmail.com}}
+		\small Timi\c{s}oara, Romania $|$ +40745166873 $|$ \href{mailto:paulhondola@gmail.com}{\underline{paulhondola@gmail.com}}
 		$|$ \href{https://linkedin.com/in/paulhondola}{\underline{linkedin.com/in/paulhondola}} $|$
 		\href{https://github.com/paulhondola}{\underline{github.com/paulhondola}}
 	\end{center}
@@ -112,9 +104,9 @@
 	\section{Education}
 	\resumeSubHeadingListStart
 
-	\resumeSubheading{Bachelor of Science in Computer Engineering}{Oct. 2023 -- Jun. 2027}{Universitatea Politehnica Timisoara}{}
+	\resumeSubheading{Bachelor of Science in Computer Engineering}{Oct. 2023 -- Jul. 2027 (expected)}{Universitatea Politehnica Timi\c{s}oara $|$ GPA: 9.72/10 $|$ Available Jul. -- Sep. 2027}{}
 	\resumeItemListStart
-		\resumeItem{Relevant Coursework: Data Structures and Algorithms, Operating Systems, Computer Architecture, Distributed Systems, Networking, Web Development.}
+		\resumeItem{Relevant Coursework: Data Structures and Algorithms, Parallel and Distributed Algorithms, Operating Systems, Computer Architecture, Formal Languages and Compilation Techniques, Software Architecture, Networking, Databases.}
 	\resumeItemListEnd
 
 	\resumeSubHeadingListEnd
@@ -123,118 +115,84 @@
 	\section{Experience}
 	\resumeSubHeadingListStart
 
-	\resumeSubheading {Software Engineer Intern}{Mar. 2026 -- Present} {Nokia $|$ \emph{Python, Jenkins, Docker, Power BI}}{}
-    \resumeItemListStart
-        \resumeItem{Profiled and optimized data-processing Python scripts, reducing end-to-end runtime by 50\% through algorithmic refactoring and numpy vectorization.}
-        \resumeItem{Contributed to the Mobile Infrastructure Metrics Automation platform, developing ETL scripts and automated test pipelines for various analytics.}
-		\resumeItem{Enhanced CI/CD pipelines using Jenkins and Docker for scalable metric processing and analysis.}
-		\resumeItem{Maintained and improved interactive Power BI dashboards to surface key metrics and KPIs.}
-		\resumeItem{Contributed reusable modules to the team's shared core library, extending common functionality leveraged across multiple internal automation projects.}
-    \resumeItemListEnd
+	\resumeSubheading {Software Engineer Intern}{Mar. 2026 -- Present} {Nokia $|$ \emph{Python, pandas, MariaDB, Jenkins, GitLab, Power BI}}{}
+	\resumeItemListStart
+		\resumeItem{Halved runtime of a high-volume financial data pipeline running 8$\times$/day (2 h $\rightarrow$ 1 h, $\sim$8 compute-hours saved daily) by replacing sequential row-by-row business logic with vectorized pandas operations; verified equivalence with a prod-vs-dev table diff that exposed silently dropped entries in the legacy implementation.}
+		\resumeItem{Restored 3 product-management data pipelines broken by an upstream access change with a minimal hotfix (HTML $\rightarrow$ XML export parsing), then proposed and executed a $\sim$90-file rewrite that eliminated duplicated logic through a shared module layer and a uniform index/parser/pipeline structure per data source.}
+	\resumeItemListEnd
 
-    \resumeSubheading {Full Stack Developer Intern}{Jul. 2025 -- Oct. 2025} {Hibyte $|$ \emph{Typescript, Angular, NestJS, Payload CMS, Supabase}}{}
-    \resumeItemListStart
-        \resumeItem{Engineered 'GameBox', a full-stack monorepo for game center management, integrating a customer-facing web app with an admin CMS.}
-        \resumeItem{Built a responsive frontend architecture using Angular, TypeScript, and SCSS.}
-        \resumeItem{Developed a backend system using NestJS and Payload CMS, leveraging Supabase for secure authentication and real-time database operations.}
-    \resumeItemListEnd
+	\resumeSubheading {Full Stack Developer Intern}{Jul. 2025 -- Oct. 2025} {Hibyte $|$ \emph{TypeScript, Angular, NestJS, Payload CMS, Supabase}}{}
+	\resumeItemListStart
+		\resumeItem{Built the role-based authentication layer (Supabase JWTs validated by NestJS guards across admin, staff and customer roles) and backend routes for a game-center management proof of concept in a 5-person team.}
+		\resumeItem{Configured 7 Payload CMS collections for non-technical admins and maintained Supabase migrations through continuous schema changes.}
+	\resumeItemListEnd
 
-	\resumeSubheading {Malware Analyst Trainee}{Apr. 2025 -- Jun. 2025} {Bitdefender $|$ \emph{Java, Python, C, x86 Assembly, IDA Pro, jadx}}{}
-    \resumeItemListStart
-        \resumeItem{Conducted static and dynamic analysis of Windows and Android malware samples to identify command-and-control protocols and persistence mechanisms.}
-        \resumeItem{Reverse engineered ransomware encryption routines using IDA Pro (x86 disassembly) and jadx (Java decompilation) to understand payload behavior.}
-        \resumeItem{Investigated Android system vulnerabilities and exploitation techniques, analyzing APK structures and security models in sandboxed environments.}
-    \resumeItemListEnd
+	\resumeSubheading {Reverse Engineering and Malware Analysis Trainee}{Apr. 2025 -- Jun. 2025} {Bitdefender $\times$ LigaAC $|$ \emph{C, Python, x86 Assembly, IDA Pro, Frida}}{}
+	\resumeItemListStart
+		\resumeItem{Reversed a file-encryption routine from x86 disassembly in IDA Pro and implemented working decryptors in C for 5 file formats, plus a keygen reproducing a licence algorithm from recovered lookup tables and hash logic.}
+		\resumeItem{Unpacked dynamically loaded Android DEX payloads with Frida hooks on DexClassLoader/DexFile and built Python/Java tools to decrypt locker-app data across 8 reverse-engineering labs on purpose-built binaries.}
+	\resumeItemListEnd
 
-    \resumeSubHeadingListEnd
-
-    %-----------TECHNICAL SKILLS-----------
-	\section{Technical Skills}
-	\begin{itemize}[leftmargin=0.15in, label={}]
-		\small{\item{
-		\textbf{Languages}{: C/C++, C\#, Python, Java, TypeScript, SQL, Bash} \\
-
-		\textbf{High Performance Computing}{: MPI, OpenMP, POSIX Threads, SIMD, Shared Memory, Distributed Systems} \\
-
-		\textbf{Systems and Tools}{: Linux, Docker, Jenkins, Git, Meson, CMake, Postman, IDA Pro, jadx, Wireshark} \\
-
-		\textbf{Web Development}{: React, Angular, NestJS, ASP.NET Core, Hono} \\
-
-		\textbf{Databases}{: PostgreSQL, Supabase, Entity Framework Core} \\
-
-		\textbf{Data Analysis}{: NumPy, Pandas, Matplotlib, PyTorch, Power BI} \\
-
-		\textbf{Spoken Languages}{: English (C1/Advanced), Romanian (Native)}
-		}}
-	\end{itemize}
+	\resumeSubHeadingListEnd
 
 	%-----------PROJECTS-----------
 	\section{Projects}
 	\resumeSubHeadingListStart
 
 	\resumeProjectHeading
-	{\textbf{Vibecodium - Collaborative Browser-Based IDE} $|$ \emph{React, Hono, Bun, Supabase, Docker, Vercel}}{Mar. 2026 -- Present}
+	{\textbf{\href{https://github.com/paulhondola/groundly}{\underline{Groundly}}} (Bachelor Thesis) $|$ \emph{Python, FastMCP, SQLite, bge-m3, GraphRAG}}{Jul. 2026 -- Present}
 	\resumeItemListStart
-		\resumeItem{Won 1st Place in Web Development at the iTEC 2026 Hackathon.}
-		\resumeItem{Built a collaborative browser-based IDE with real-time multi-user editing (Yjs CRDT).}
-		\resumeItem{Integrated an AI coding assistant using Server-Sent Events (SSE) for real-time code generation and completion suggestions.}
-		\resumeItem{Implemented a sandboxed Docker execution environment for running user-submitted code with isolated filesystem and network access.}
-		\resumeItem{Integrated one-click Vercel deployment for user projects with automatic environment variable configuration and build pipeline orchestration.}
+		\resumeItem{Built an MCP server (tested with Claude Code and Codex) that indexes course materials into portable single-file knowledge bases, serving hybrid retrieval (bge-m3 dense + learned sparse + BM25, reciprocal rank fusion, cross-encoder reranking) with zero API keys.}
+		\resumeItem{Evaluated 3 GraphRAG retrieval strategies against a reranked hybrid baseline on 124 gold questions across 2 course corpora; after GraphRAG failed to outperform it, removed query-time GraphRAG and the external-model answer pipeline for an MCP-first, zero-key architecture.}
+		\resumeItem{Cut peak indexing memory from $>$16 GB to a flat 5.05 GB independent of document size by profiling with memray and streaming fp16 embeddings in bounded batches into SQLite.}
 	\resumeItemListEnd
 
 	\resumeProjectHeading
-	{\textbf{\href{https://github.com/paulhondola/Smart-Shopping-Assistant}{\underline{Smart Shopping Assistant}}} $|$ \emph{React, TypeScript, ASP.NET Core, PostgreSQL, OpenAI}}{Apr. 2026 -- Jun. 2026}
+	{\textbf{\href{https://github.com/paulhondola/gemm-bench}{\underline{gemm-bench}}} $|$ \emph{Rust, Rayon, Metal (MPS), DuckDB, Svelte}}{Sep. 2026 -- Present}
 	\resumeItemListStart
-		\resumeItem{Built a full-stack e-commerce platform with an AI-powered agentic cart analyzer, developed within the LigaAC Labs x NetRom industry mentorship program.}
-		\resumeItem{Architected a sequential two-agent LLM pipeline that detects active and near-miss promotions and composes personalized product recommendations.}
-		\resumeItem{Engineered a layered ASP.NET Core backend over PostgreSQL with Entity Framework Core and JWT role-based authentication.}
-		\resumeItem{Kept a deterministic server-side promotion engine authoritative over the LLM to ensure pricing accuracy.}
-		\resumeItem{Developed a responsive React 19 + TypeScript SPA (Vite, Material-UI, TanStack Query) consuming the REST API.}
+		\resumeItem{Built 7 CPU matrix-multiplication kernels in Rust (loop interchange, cache tiling, Rayon work-stealing, static thread pools) plus an Apple Silicon GPU backend via Metal Performance Shaders, sweeping 5 precisions, thread counts and sizes up to 4096.}
+		\resumeItem{Raised f32 throughput from 2.1 GFLOPS (naive) to 200 GFLOPS on 10 CPU threads (97$\times$) and 665 GFLOPS on the GPU (323$\times$), with f16 reaching 995 GFLOPS on the GPU.}
+		\resumeItem{Backed the suite with 48 correctness tests, GitHub Actions CI and a DuckDB/Parquet pipeline feeding a Svelte + DuckDB-WASM dashboard that queries results in the browser.}
 	\resumeItemListEnd
 
 	\resumeProjectHeading
-	{\textbf{ArchLens Analyzer} $|$ \emph{Python, Java, C\#, Reverse Engineering}}{Mar. 2026 -- Apr. 2026}
+	{\textbf{\href{https://github.com/paulhondola/vibecodium}{\underline{Vibecodium}}} $|$ 1st Place, iTEC 2026 $|$ \emph{TypeScript, React, Bun, Supabase, Yjs, Docker}}{Mar. 2026 -- Jun. 2026}
 	\resumeItemListStart
-		\resumeItem{Polyglot CLI tool (Python orchestrator + Java/C\# backends) that reverse-engineers compiled binaries (.jar, .dll) into UML class diagrams using runtime reflection.}
-		\resumeItem{Outputs PlantUML and yUML; built with a layered pipeline architecture across a Maven and .NET monorepo.}
+		\resumeItem{Co-led a 5-person team building a real-time collaborative IDE with Yjs CRDT multi-user editing, owning the core workspace UI (Monaco editor, file explorer, Git panel, terminal) and the project, session and user REST APIs.}
+		\resumeItem{Built a Docker code-execution sandbox for Python, Node.js, C++ and Rust with per-container 2 GB memory caps, no network access and a 3 s execution timeout.}
 	\resumeItemListEnd
 
 	\resumeProjectHeading
-	{\textbf{AtomC Compiler} $|$ \emph{C, Meson, Compiler Design}}{Mar. 2026 -- May. 2026}
+	{\textbf{\href{https://github.com/paulhondola/atomc_compiler}{\underline{AtomC Compiler}}} (Compilers coursework) $|$ \emph{C23, Meson}}{Mar. 2026 -- May. 2026}
 	\resumeItemListStart
-		\resumeItem{Developed a C-like language compiler frontend from scratch in C.}
-		\resumeItem{Implemented a lexer, parser, and semantic analyzer to process and validate C source code.}
-		\resumeItem{Established CI pipeline with integration test suites for lexer, parser, domain/type analyzer, stack-based virtual machine and code generator.}
+		\resumeItem{Implemented an end-to-end compiler for a C subset in $\sim$3.4K lines of C23 -- lexer, recursive-descent parser, scoped symbol tables with struct alignment, type checking and code generation for a 34-opcode stack VM -- verified by 8 test suites behind a pre-commit gate with clang-tidy, ASan/UBSan and leak detection.}
 	\resumeItemListEnd
 
 	\resumeProjectHeading
-	{\textbf{Distributed Image Processing System} $|$ \emph{C, MPI, OpenMP, Meson, Python, Assembly}}{Dec. 2025 -- Jan. 2026}
+	{\textbf{\href{https://github.com/paulhondola/MPI-OpenMP-Image-Processing}{\underline{Distributed Image Processing}}} (Parallel Algorithms coursework) $|$ \emph{C, MPI, OpenMP}}{Dec. 2025 -- Feb. 2026}
 	\resumeItemListStart
-		\resumeItem{Implemented a high-performance hybrid parallel image processing engine utilizing MPI for distributed memory and OpenMP for shared memory parallelism.}
-		\resumeItem{Engineered diverse parallel architectures including a standard multithreaded approach, distributed message passing, shared filesystem optimization, a producer-consumer task pool model and hybrid parallelism.}
-		\resumeItem{Validated the efficiency of SIMD vectorization by inspecting generated assembly code across different compiler optimization levels.}
-		\resumeItem{Optimized computationally intensive convolution kernels (Gaussian Blur, Ridge Detection) for processing large BMP images across cluster nodes.}
-		\resumeItem{Developed an automated benchmarking suite with Python visualization to analyze strong scaling, speedup, and parallel efficiency.}
+		\resumeItem{Parallelized 2D convolution on images up to 16800$\times$12600 px across 5 execution models (serial, OpenMP, MPI message passing, shared-file I/O, master-worker task pool), reaching a median 6.8$\times$ speedup with 8 MPI processes.}
 	\resumeItemListEnd
-
-	\resumeProjectHeading
-	{\textbf{Parallel DMM Benchmark and Analysis} $|$ \emph{C, OpenMP, Meson, Python, Assembly}}{Oct. 2025 -- Nov. 2025}
-	\resumeItemListStart
-		\resumeItem{Developed a benchmarking suite for dense matrix multiplication, implementing serial and parallel algorithms with OpenMP.}
-		\resumeItem{Implemented loop permutations and cache blocking (tiling) strategies to optimize memory access patterns and minimize cache misses.}
-	\resumeItemListEnd
-
-	\resumeSubheading{Deepblue Maker - Underwater Robotics Summer Camp}{Jul. 2025 -- Aug. 2025}{Hangzhou Dianzi University, China}{}
-    \resumeItemListStart
-        \resumeItem{Co-engineered a remotely operated underwater vehicle (ROV) capable of environmental mapping and real-time object detection.}
-        \resumeItem{Mechanical: Designed and 3D-printed a custom water-sealed chassis using SolidWorks; validated buoyancy and structural integrity through physical testing.}
-        \resumeItem{Embedded Systems: Programmed an STM32 microcontroller for precise thruster propulsion control and hardware interfacing.}
-        \resumeItem{Computer Vision: Deployed a YOLO-based object detection model on a Raspberry Pi 5 to identify sea life from live camera feeds.}
-    \resumeItemListEnd
 
 	\resumeSubHeadingListEnd
-	%-----------CERTIFICATES-----------
-	%----------------------------------
+
+	%-----------TECHNICAL SKILLS-----------
+	\section{Technical Skills}
+	\begin{itemize}[leftmargin=0.15in, label={}]
+		\small{\item{
+		\textbf{Languages}{: Python, C, C++, Rust, Java, TypeScript, SQL, Bash} \\
+
+		\textbf{Parallel and HPC}{: MPI, OpenMP, Rayon, POSIX Threads, SIMD/NEON, Metal Performance Shaders, Cache Optimization} \\
+
+		\textbf{Systems and Tools}{: Linux, Docker, Jenkins, GitHub Actions, GitLab CI, Meson, Cargo, Maven, IDA Pro, Frida} \\
+
+		\textbf{Data}{: pandas, NumPy, DuckDB, Parquet, Power BI, PostgreSQL, MariaDB, SQLite} \\
+
+		\textbf{Web}{: React, Angular, NestJS, Hono, Svelte, Supabase} \\
+
+		\textbf{Spoken Languages}{: English (C1/Advanced), Romanian (Native)}
+		}}
+	\end{itemize}
 
 	%-------------------------------------------
 \end{document}
