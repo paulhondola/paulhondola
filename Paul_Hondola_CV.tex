@@ -148,11 +148,11 @@
 	\resumeItemListEnd
 
 	\resumeProjectHeading
-	{\textbf{\href{https://github.com/paulhondola/gemm-bench}{\underline{gemm-bench}}} $|$ \emph{Rust, Rayon, Metal (MPS), DuckDB, Svelte}}{Sep. 2026 -- Present}
+	{\textbf{\href{https://github.com/paulhondola/gemm-bench}{\underline{gemm-bench}}} $|$ \emph{Rust, Rayon, Metal (MPS), Accelerate (AMX), DuckDB, Svelte}}{Sep. 2026 -- Present}
 	\resumeItemListStart
-		\resumeItem{Built 7 CPU matrix-multiplication kernels in Rust (loop interchange, cache tiling, Rayon work-stealing, static thread pools) plus an Apple Silicon GPU backend via Metal Performance Shaders, sweeping 5 precisions, thread counts and sizes up to 4096.}
-		\resumeItem{Raised f32 throughput from 2.1 GFLOPS (naive) to 200 GFLOPS on 10 CPU threads (97$\times$) and 665 GFLOPS on the GPU (323$\times$), with f16 reaching 995 GFLOPS on the GPU.}
-		\resumeItem{Backed the suite with 48 correctness tests, GitHub Actions CI and a DuckDB/Parquet pipeline feeding a Svelte + DuckDB-WASM dashboard that queries results in the browser.}
+		\resumeItem{Benchmarked 10 matrix-multiplication kernels on Apple M1 Pro over 5 precisions and sizes up to 4096: 7 Rust CPU kernels (loop interchange, cache tiling, Rayon work-stealing, static thread pools), Metal (MPS) on the GPU and the AMX coprocessor via Accelerate.}
+		\resumeItem{Raised f32 throughput at $n = 1024$ from 2.1 GFLOPS (naive) to 197 GFLOPS on 10 threads (94$\times$) and 1.75 TFLOPS on AMX, with the GPU peaking at 3.7 TFLOPS; an f64 reference showed MPS f16 $\sim$500$\times$ more accurate than CPU f16.}
+		\resumeItem{Backed by 148 tests, GitHub Actions CI and a DuckDB/Parquet pipeline feeding a live DuckDB-WASM \href{https://paulhondola.github.io/gemm-bench/}{\underline{dashboard}}.}
 	\resumeItemListEnd
 
 	\resumeProjectHeading
