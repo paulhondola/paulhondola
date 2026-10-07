@@ -28,7 +28,7 @@ High-performance dense matrix multiplication (GEMM) benchmarking suite and compu
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
+![SQLite](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=sqlite&logoColor=black)
 ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-999999?style=for-the-badge&logo=apple&logoColor=white)
 
 ---
