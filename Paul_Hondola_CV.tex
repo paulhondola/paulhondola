@@ -117,7 +117,7 @@
 
 	\resumeSubheading {Software Engineer Intern}{Mar. 2026 -- Present} {Nokia $|$ \emph{Python, pandas, MariaDB, Jenkins, GitLab, Power BI}}{}
 	\resumeItemListStart
-		\resumeItem{Halved runtime of a high-volume financial data pipeline running 8$\times$/day (2 h $\rightarrow$ 1 h, $\sim$8 compute-hours saved daily) by replacing sequential row-by-row business logic with vectorized pandas operations; verified equivalence with a prod-vs-dev table diff that exposed silently dropped entries in the legacy implementation.}
+		\resumeItem{Re-architected two financial data pipelines (2 h 15 min + 7 min) into one 8-minute pipeline run every 2 h ($\sim$18$\times$ faster) by vectorizing row-by-row pandas logic and parallelizing data fetching via v2 API parameters and concurrent exports; a prod-vs-dev diff caught silently dropped legacy entries.}
 		\resumeItem{Restored 3 product-management data pipelines broken by an upstream access change with a minimal hotfix (HTML $\rightarrow$ XML export parsing), then proposed and executed a $\sim$90-file rewrite that eliminated duplicated logic through a shared module layer and a uniform index/parser/pipeline structure per data source.}
 	\resumeItemListEnd
 
