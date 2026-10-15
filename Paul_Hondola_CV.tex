@@ -3,7 +3,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[a4paper, 8pt]{article}
+\documentclass[a4paper, 10pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -32,7 +32,7 @@
 \addtolength{\textheight}{1.6in}
 
 % Slightly tighter bullets (space above each list is left untouched)
-\setlist[itemize]{itemsep=2pt, parsep=0pt, topsep=2pt}
+\setlist[itemize]{itemsep=1pt, parsep=0pt, topsep=2pt}
 
 \urlstyle{same}
 
@@ -148,24 +148,24 @@
 	\resumeItemListEnd
 
 	\resumeProjectHeading
-	{\textbf{\href{https://github.com/paulhondola/gemm-bench}{\underline{gemm-bench}}} $|$ \emph{Rust, Rayon, Metal (MPS), Accelerate (AMX), DuckDB, Svelte}}{Sep. 2026 -- Present}
+	{\textbf{\href{https://github.com/paulhondola/Sentinela-Test}{\underline{Sentinela}}} (5-person team) $|$ \emph{Python, FastAPI, PostgreSQL, Kotlin, SvelteKit, Twilio, Railway}}{Oct. 2026 -- Present}
 	\resumeItemListStart
-		\resumeItem{Benchmarked 10 matrix-multiplication kernels on Apple M1 Pro over 5 precisions and sizes up to 4096: 7 Rust CPU kernels (loop interchange, cache tiling, Rayon work-stealing, static thread pools), Metal (MPS) on the GPU and the AMX coprocessor via Accelerate.}
-		\resumeItem{Raised f32 throughput at $n = 1024$ from 2.1 GFLOPS (naive) to 197 GFLOPS on 10 threads (94$\times$) and 1.75 TFLOPS on AMX, with the GPU peaking at 3.7 TFLOPS; an f64 reference showed MPS f16 $\sim$500$\times$ more accurate than CPU f16.}
-		\resumeItem{Backed by 148 tests, GitHub Actions CI and a DuckDB/Parquet pipeline feeding a live DuckDB-WASM \href{https://paulhondola.github.io/gemm-bench/}{\underline{dashboard}}.}
+		\resumeItem{Building a safety-check system for seniors living alone, live on Railway staging and production: Twilio check-in calls detect alarm phrases and open incidents for a dispatch team's Kanban board (open / in progress / resolved), refreshed every 15 s.}
+		\resumeItem{Medics register seniors via a four-step Android flow recording consent as an auditable history (withdrawals append, never overwrite), backed by a FastAPI/PostgreSQL service with 194 tests.}
+	\resumeItemListEnd
+
+	\resumeProjectHeading
+	{\textbf{\href{https://github.com/paulhondola/gemm-bench}{\underline{gemm-bench}}} $|$ \emph{Rust, Rayon, std::simd, SQLite, Svelte}}{Sep. 2026 -- Present}
+	\resumeItemListStart
+		\resumeItem{Built 9 Rust CPU GEMM kernels (cache tiling, Rayon work-stealing, static thread pools, a BLIS-style packed micro-kernel with \texttt{std::simd} register blocking), benchmarked against Apple AMX and Metal GPU backends at 5 precisions.}
+		\resumeItem{Reached 679 GFLOPS f32 with the parallel packed micro-kernel (87\% of the M1 Pro's theoretical NEON peak), vs. 1.9--2.3 TFLOPS on AMX and 3.5 TFLOPS on the GPU.}
+		\resumeItem{Gathered results from 8 machines and 4 contributors into strict-schema SQLite databases, validated in CI on Ubuntu, Windows and macOS (147 Rust tests) and charted in a live \href{https://paulhondola.github.io/gemm-bench/}{\underline{dashboard}}.}
 	\resumeItemListEnd
 
 	\resumeProjectHeading
 	{\textbf{\href{https://github.com/paulhondola/vibecodium}{\underline{Vibecodium}}} $|$ 1st Place, iTEC 2026 $|$ \emph{TypeScript, React, Bun, Supabase, Yjs, Docker}}{Mar. 2026 -- Jun. 2026}
 	\resumeItemListStart
-		\resumeItem{Co-led a 5-person team building a real-time collaborative IDE with Yjs CRDT multi-user editing, owning the core workspace UI (Monaco editor, file explorer, Git panel, terminal) and the project, session and user REST APIs.}
-		\resumeItem{Built a Docker code-execution sandbox for Python, Node.js, C++ and Rust with per-container 2 GB memory caps, no network access and a 3 s execution timeout.}
-	\resumeItemListEnd
-
-	\resumeProjectHeading
-	{\textbf{\href{https://github.com/paulhondola/atomc_compiler}{\underline{AtomC Compiler}}} (Compilers coursework) $|$ \emph{C23, Meson}}{Mar. 2026 -- May. 2026}
-	\resumeItemListStart
-		\resumeItem{Implemented an end-to-end compiler for a C subset in $\sim$3.4K lines of C23 -- lexer, recursive-descent parser, scoped symbol tables with struct alignment, type checking and code generation for a 34-opcode stack VM -- verified by 8 test suites behind a pre-commit gate with clang-tidy, ASan/UBSan and leak detection.}
+		\resumeItem{Co-led a 5-person team building a real-time collaborative IDE (Yjs CRDT), owning the workspace UI and REST APIs, and built a Docker code-execution sandbox for 4 languages with 2 GB memory caps, no network access and a 3 s timeout.}
 	\resumeItemListEnd
 
 	\resumeProjectHeading
@@ -182,13 +182,13 @@
 		\small{\item{
 		\textbf{Languages}{: Python, C, C++, Rust, Java, TypeScript, SQL, Bash} \\
 
-		\textbf{Parallel and HPC}{: MPI, OpenMP, Rayon, POSIX Threads, SIMD/NEON, Metal Performance Shaders, Cache Optimization} \\
+		\textbf{Parallel and HPC}{: MPI, OpenMP, Rayon, POSIX Threads, SIMD/NEON, Cache Optimization} \\
 
-		\textbf{Systems and Tools}{: Linux, Docker, Jenkins, GitHub Actions, GitLab CI, Meson, Cargo, Maven, IDA Pro, Frida} \\
+		\textbf{Systems and Tools}{: Linux, Docker, Jenkins, GitHub Actions, GitLab CI, Railway, Meson, Cargo, Maven, IDA Pro, Frida} \\
 
 		\textbf{Data}{: pandas, NumPy, DuckDB, Parquet, Power BI, PostgreSQL, MariaDB, SQLite} \\
 
-		\textbf{Web}{: React, Angular, NestJS, Hono, Svelte, Supabase} \\
+		\textbf{Web}{: React, Angular, Svelte, NestJS, FastAPI, Hono, Supabase} \\
 
 		\textbf{Spoken Languages}{: English (C1/Advanced), Romanian (Native)}
 		}}
