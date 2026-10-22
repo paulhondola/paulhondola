@@ -1,8 +1,4 @@
 .DS_Store
 .claude/
 .remember/
-
-# LaTeX output
-*.aux
-*.log
-*.out
+Icon?
