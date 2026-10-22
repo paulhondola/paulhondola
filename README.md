@@ -1,11 +1,11 @@
-![Neofetch Stats](https://neofetch-profile.vercel.app/api?username=paulhondola&theme=github-dark&config=https%3A%2F%2Fraw.githubusercontent.com%2Fpaulhondola%2Fpaulhondola%2Fmain%2Fneofetch.json&v=1)
+![Neofetch Stats](https://neofetch-profile.vercel.app/api?username=paulhondola&theme=github-dark&config=https%3A%2F%2Fpaulhondola.github.io%2Fneofetch.json&v=1)
 
 ## Education
 
 ### Undergraduate Student at Polytechnic University of Timișoara
 #### Automation and Computers, Computer and Information Technology Branch (2023–2027)
 
-[View My Resume](https://github.com/paulhondola/paulhondola/raw/main/Paul_Hondola_CV.pdf)
+[View My Resume](https://paulhondola.github.io/cv/Paul_Hondola_CV.pdf)
 
 ---
 
